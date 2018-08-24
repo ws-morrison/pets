@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Pets</title>
+</head>
+
+<body class="page-body">
+  <header class="page-header">
+    <h1 class="page-title">Международный фонд помощи животным</h1>
+
+    <nav class="header-nav">
+      <button class="header-button">Х</button>
+    </nav>
+
+    <div class="header-login">
+      <a href="" class="header-login__link link">Личный кабинет</a>
+    </div>
+
+    <div class="breadcrumbs">
+      <p class="breadcrumbs__text breadcrumbs__text--small"><span class="breadcrumbs__text--bold">112 сборов </span>открыты
+        прямо сейчас
+      </p>
+      <a href="" class="breadcrumbs__link">14 срочных</a>
+      <a href="" class="breadcrumbs__link">Остальные</a>
+      <a href="" class="breadcrumbs__link breadcrumbs__link--active">Завершённые</a>
+    </div>
+
+  </header>
+  <main class="page-main">
+    <form action="select__help" class="select-form">
+
+      <select name="select-help" id="" class="select">
+        <option value="all">Все</option>
+      </select>
+    </form>
+
+        <form class="donate">
+          <h3 class="donate__heading">Не знаете, кому помочь? <span class="donate__heading donate__heading--bold">Помогите всем
+            </span></h3>
+          <span class="donate-slider__output">500 Р</span>
+          <div class="donate-slider">
+            <input class="donate-slider__range" type="range" value="100" min="0" max="5000">
+          </div>
+
+          <label for="one-time">
+            <input type="radio" id="donate-one-time" checked> Разово
+          </label>
+          <label for="donate-month">
+            <input type="radio" id="donate-month"> Ежемесячно
+          </label>
+        </form>
+
+        <div class="pay-method">
+          <p class="pay-method__heading">Выберите способ оплаты</p>
+          <div class="pay-method__list">
+            <a href="" class="pay-method__item">Visa</a>
+            <a href="" class="pay-method__item">Mastercard</a>
+            <a href="" class="pay-method__item">Yandex</a>
+            <a href="" class="pay-method__item">WebMoney</a>
+          </div>
+        </div>
+
+        <div class="feedback">
+          <p class="feedback__heading">Кого нам благодарить</p>
+
+          <form class="subscribe-form">
+            <label for="sub-name">
+              <input type="text" id="sub-name" />
+            </label>
+            <label for="sub-email">
+              <input type="email" id="sub-email" />
+            </label>
+            <button class="button subscribe-form__button">Пожертвовать</button>
+            <p class="subscribe-form__caption">
+              Помогая, я соглашаюсь с <a href="" class="subscribe-form__link">Условиями пожертвований</a> и <a href="" class="subscribe-form__link">Политикой</a>
+            </p>
+          </form>
+          <p class="feedback__caption">Мы пришлём отчёт о получении сразу, как только перевод поступит на счёт сбора. Вы сможете отменить
+            привязку карты в любой момент</p>
+  </main>

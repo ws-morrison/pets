@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Pets</title>
+</head>
+
+<body class="page-body">
+  <header class="page-header">
+    <h1 class="page-title">Международный фонд помощи животным</h1>
+
+    <nav class="header-nav">
+      <button class="header-button">Х</button>
+    </nav>
+
+    <div class="header-login">
+      <a href="" class="header-login__link link">Личный кабинет</a>
+    </div>
+
+    <div class="breadcrumbs">
+      <p class="breadcrumbs__text breadcrumbs__text--small"><span class="breadcrumbs__text--bold">112 сборов </span>открыты
+        прямо сейчас
+      </p>
+      <a href="" class="breadcrumbs__link">14 срочных</a>
+      <a href="" class="breadcrumbs__link">Остальные</a>
+      <a href="" class="breadcrumbs__link breadcrumbs__link--active">Завершённые</a>
+    </div>
+
+  </header>
+
+  <main class="page-main">
+    <form action="select__help" class="select-form">
+      <p class="select-form__heading">Выберите, в чём именно хотели бы помочь</p>
+      <select name="select-help" id="" class="select">
+        <option value="all">Все</option>
+      </select>
+    </form>
+
+    <div class="common-post">
+
+      <div class="progress">
+        <p class="progress-desc progress-desc--heading">Собрано <span class="progress-desc__counter">410 000</span></p>
+        <div class="progress-bar">
+          <div class="progress-bar__inner"></div>
+        </div>
+      </div>
+
+      <div class="funders">
+        <p class="funders__heading">Поддержали:</p>
+        <span class="funders__name">Елена Р., Роман, Константин, Дима, Sara, Mark.R и ещё</span>
+        <a href="" class="funders__counter">203 человека</a>
+      </div>
+
+      <img src="https://via.placeholder.com/280x205" alt="" class="common-post__image">
+      <p class="common-post__text">По статистике за 7 лет одна собака и её потомство способны произвести до 67 000 щенков,
+        кошка и её потомство — до 420 000 котят, и их подавляющее большинство окажется на улице или будет убито при рождении</p>
+    </div>
+
+    <div class="fix-donate">
+      <form action="" class="donation-form">
+        <label for="donation-500"><input class="donation-form__check" type="checkbox" id="donation-500">
+          <span class="donation-form__desc">Хватит на перевязочные материалы*</span>
+        </label>
+
+        <label for="donation-1000"><input class="donation-form__check" type="checkbox" id="donation-1000">
+          <span class="donation-form__desc">Хватит на анастезию*</span>
+        </label>
+
+        <label for="donation-2000">
+          <input class="donation-form__check" type="checkbox" id="donation-2000">
+          <span class="donation-form__desc">Минимальная цена стерилизации*</span>
+        </label>
+
+        <label for="donation-3000">
+          <input class="donation-form__check" type="checkbox" id="donation-3000">
+          <span class="donation-form__desc">Минимальная цена 2 дней передержки*</span>
+        </label>
+
+        <label for="donation-sum">
+          <input class="donation-form__check" type="number" id="donation-sum" placeholder="Любая сумма">
+        </label>
+        <button class="button subscribe-form__button">Пожертвовать</button>
+      </form>
+      <p class="donation__caption">*Это бессрочный сбор. Все средства распределяются между организациями равными частями. Стоимость
+        процедуры зависит от города, клиники и множества факторов, поэтому выше приведены средние цены</p>
+    </div>
+
+    <div class="aside">
+      <p class="aside__heading">Возможно, вы хотели бы знать:</p>
+      <ul class="aside__list">
+        <li class="aside__item"><a href="" class="aside__link">Стерилизация. Безусловное благо</a></li>
+        <li class="aside__item"><a href="" class="aside__link">Стерилизация — спасение от смерти</a></li>
+        <li class="aside__item"><a href="" class="aside__link">Правда и мифы о стерелизации</a></li>
+        <li class="aside__item"><a href="" class="aside__link">О пользе стерилизации собак и кошек</a></li>
+      </ul>
+    </div>
+
+        <div class="aside">
+          <p class="aside__heading">Другие направления сборов:</p>
+          <ul class="aside__list">
+            <li class="aside__item"><a href="" class="aside__link">Лечение</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Содержание</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Помощь приюту</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Ищут дом</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Передержка</a></li>
+          </ul>
+        </div>
+
+      <div class="help">
+        <span class="help__thumb"></span>
+        <h2 class="help__heading">Или поспешите туда, где помощь нужна <a href="" class="help__link link--highlighted">срочно
+          </a></h2>
+        <p class="help__caption">Вы успеете помочь!</p>
+        <img src="https://via.placeholder.com/280x205" alt="" class="help__image">
+
+        <div class="item-state">
+          <span class="item-state__thumb"></span>
+          <p class="item-state__text">Осталось <span class="item-state__counter">3 дня</span></p>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar">
+            <div class="progress-bar__inner"></div>
+          </div>
+          <p class="progress-desc">Собрано <span class="progress-desc__counter">410 000</span> из 1 000 000</p>
+        </div>
+
+        <button class="button">Помочь Джесси!</button>
+
+        <div class="main-item">
+          <h3 class="main-item__heading">Помогите Джесси узнавать мир не только по запаху: она не видит с рождения</h3>
+          <p class="main-item__desc">Джесси попала к нам 2-недельным щенком, ее бросили на дороге. Нeсмотря на это она была жизнерадостной,
+            играла с врачами, но... не видела их. Сейчас Джейси полгода, ей срочно нужна операция, иначе она навсегда потеряет
+            возможность видеть.
+          </p>
+          <a href="" class="main-item__link">Показать все срочные сборы<span class="main-item__link main-item__link--more"></span></a>
+        </div>
+      </div>
+  </main>
