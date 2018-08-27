@@ -1,0 +1,16 @@
+.button {
+  font-size: 20px;
+  font-family: "Effra", "Arial", sans-serif;
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 280px;
+  height: 82px;
+  border-radius: 50px;
+
+  // box-shadow: 0px 4px 0px 0px rgba(28, 128, 160, 0.004);
+  // background: rgba(60,206,208,1);
+  // background: linear-gradient(to bottom, rgba(60,206,208,1) 0%, rgba(117,189,209,1) 41%, rgba(57,143,172,1) 100%);
+
+  background: linear-gradient( 90deg, rgb(56,137,168) 0%, rgb(59,204,205) 100%);
+  box-shadow: 0px 4px 0px 0px rgba(28, 128, 160, 0.004);
+}
