@@ -7,3 +7,12 @@
   font-size: 16px;
   font-family: "Effra", "Arial", sans-serif;
 }
+
+.main-item__img {
+    display: flex;
+  flex-direction: column;
+
+  background-image: url('../img/img-item0.jpg');
+  background-repeat: no-repeat;
+  // background-position: 50% 50%;
+}

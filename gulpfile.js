@@ -18,9 +18,22 @@ gulp.task("style", function() {
     .pipe(server.stream());
 });
 
-gulp.task("serve", ["style"], function() {
+// gulp.task("serve", ["style"], function() {
+//   server.init({
+//     server: "source/",
+//     notify: false,
+//     open: true,
+//     cors: true,
+//     ui: false
+//   });
+
+//   gulp.watch("source/sass/**/*.{scss,sass}", ["style"]);
+//   gulp.watch("source/*.html").on("change", server.reload);
+// });
+
+gulp.task("serve", ["style"], function () {
   server.init({
-    server: "source/",
+    server: "./",
     notify: false,
     open: true,
     cors: true,
