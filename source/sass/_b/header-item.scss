@@ -1,17 +1,35 @@
+.header-item {
+  width: 170px;
+}
+
+.header-item::before {
+  content: "";
+  position: absolute;
+  background-image: url('../../img/hands-thumb.svg');
+  width: 51px;
+  height: 43px;
+  background-repeat: no-repeat;
+  top: 270px;
+}
+
 .header-item__title {
   font-size: 26px;
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(255, 203, 105);
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .header-item__caption {
   font-size: 16px;
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(255, 255, 255);
+  margin: 0;
 }
 
 .header-item__text {
   font-size: 16px;
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(255, 255, 255);
+  margin-bottom: 40px;
 }

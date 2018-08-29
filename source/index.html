@@ -14,29 +14,39 @@
     <header class="page-header">
 
       <nav class="header-nav">
-        <button class="header-button">Х</button>
+
+        <div class="burger">
+          <div class="burger-item"></div>
+          <div class="burger-item"></div>
+          <div class="burger-item"></div>
+        </div>
 
         <div class="header-login">
           <a href="#" class="link header-login__link">Личный кабинет</a>
         </div>
       </nav>
 
-      <!-- <div class="header-login">
-      <a href="#" class="link header-login__link">Личный кабинет</a>
-    </div> -->
+      <div class="header-nav__wrapper">
+        <ul class="header-nav__list visually-hidden">
+          <li class="header-nav__item"><a href="#" class="link header-nav__link">Линк 1</a></li>
+          <li class="header-nav__item"><a href="#" class="link header-nav__link">Линк 2</a></li>
+          <li class="header-nav__item"><a href="#" class="link header-nav__link">Линк 3</a></li>
+          <li class="header-nav__item"><a href="#" class="link header-nav__link">Линк 4</a></li>
+          <li class="header-nav__item"><a href="#" class="link header-nav__link">Линк 5</a></li>
+        </ul>
+      </div>
 
       <h1 class="page-title">Международный фонд помощи животным</h1>
 
       <div class="header-content">
-        <h2 class="header-content__title">Быть Человеком — помогать животным</h2>
-
-        <div class="header-item"><span class="header-item__thumb"></span>
-          <h3 class="header-item__title">112 сборов</h3>
-          <p class="header-item__caption">Открыты прямо сейчас</p>
-          <p class="header-item__text">Милые создания ждут вашей помощи</p>
+        <h2 class="header-content__title">Быть человеком — помогать животным</h2>
+        <div class="header-item">
+          <p class="header-item__title">112 <b>сборов</b></p>
+          <p class="header-item__caption">открыты прямо сейчас</p>
+          <p class="header-item__text">Милые создания ждут вашей помощи!</p>
         </div>
 
-        <button class="button">Хочу помочь!</button>
+        <button class="button header__button">Хочу помочь!</button>
       </div>
     </header>
   </div>
@@ -45,14 +55,14 @@
 
     <div class="help">
       <span class="help__thumb"></span>
-      <h2 class="help__heading">Наши срочные сборы: помощь нужна им <a href="#" class="help__link link--highlighted">прямо
-          сейчас
-        </a></h2>
+      <p class="help__heading">Наши срочные сборы: помощь нужна им <a href="#" class="help__link help__link--highlighted">
+          прямо сейчас
+        </a>
+      </p>
       <p class="help__caption">Вы успеете помочь!</p>
-      <!-- <img src="https://via.placeholder.com/280x205" alt="" class="help__image"> -->
 
       <div class="item-state">
-        <img src="https://via.placeholder.com/280x205" alt="" class="help__image">
+        <img src="./img/help-img.jpg" alt="" class="help__image" width="280px" height="205">
         <span class="item-state__thumb"></span>
         <p class="item-state__text">Осталось <span class="item-state__counter">3 дня</span></p>
       </div>
@@ -61,28 +71,30 @@
         <div class="progress-bar">
           <div class="progress-bar__inner" style="width: 25%"></div>
         </div>
-        <p class="progress-desc">Собрано <span class="progress-desc__counter">410 000</span> из 1 000 000</p>
+        <p class="progress-desc"><span class="progress-desc progress-desc--bold">Собрано <span class="progress-desc__counter">410
+              000
+            </span></span> из 1 000 000</p>
       </div>
 
-      <button class="button">Помочь Джесси!</button>
+      <button class="button help__button">Помочь Джесси!</button>
 
       <div class="main-item">
         <h3 class="main-item__heading">Помогите Джесси узнавать мир не только по запаху: она не видит с рождения</h3>
         <p class="main-item__desc">Джесси попала к нам 2-недельным щенком, ее бросили на дороге. Нeсмотря на это она была
           жизнерадостной, играла с врачами, но... не видела их. Сейчас Джейси полгода, ей срочно нужна операция, иначе она
           навсегда потеряет возможность видеть.</p>
-        <a href="#" class="main-item__link link">Показать все срочные сборы<span class="main-item__link main-item__link--more"></span></a>
-
-        <div class="main-item__img">
-          <div class="img-overlay">
-            <span class="img-overlay__thumb"></span>
-            <p class="img-overlay__text">Благодаря вам животные получили <span class="img-overlay__counter">356 870 Р</span></p>
-            <p class="img-overlay__caption">Это <span class="img-overlay__sponsors">670 </span>пожертвований за последний
-              месяц
-            </p>
-          </div>
-        </div>
+        <a href="#" class="link main-item__link main-item__link--more">Показать все срочные сборы →
+          <!-- alt+26 → -->
+        </a>
       </div>
+
+      <div class="img-overlay overlay-background-0">
+        <p class="img-overlay__text">Благодаря вам животные получили</p>
+        <p class="img-overlay__counter">356 870 Р</p>
+        <p class="img-overlay__caption">Это <span class="img-overlay__sponsors">670 </span>пожертвований за последний месяц
+        </p>
+      </div>
+
 
       <div class="extra-info">
         <div class="extra-info__heading">
@@ -93,87 +105,105 @@
         <div class="extra-info__wrapper">
 
           <div class="extra-info__left-col">
-          <div class="extra-info__item">
-            <img src="https://via.placeholder.com/140x140" alt="" class="extra-info__item-image"><span class="extra-info__item-thumb"></span><span
-              class="extra-info__item-counter">230</span></div>
+            <div class="extra-info__item">
+              <img src="./img/extra-img-0.jpg" alt="" class="extra-info__item-image" width="140"><span class="extra-info__item-thumb"></span><span
+                class="extra-info__item-counter">230</span></div>
 
-          <div class="extra-info__item">
-            <img src="https://via.placeholder.com/140x140" alt="" class="extra-info__item-image"><span class="extra-info__item-thumb"></span><span
-              class="extra-info__item-counter">267</span></div></div>
+            <div class="extra-info__item">
+              <img src="./img/extra-img-1.jpg" alt="" class="extra-info__item-image" width="140"><span class="extra-info__item-thumb"></span><span
+                class="extra-info__item-counter">267</span></div>
+          </div>
 
-              <div class="extra-info__right-col">
-          <div class="extra-info__item">
-            <img src="https://via.placeholder.com/140x140" alt="" class="extra-info__item-image"><span class="extra-info__item-thumb"></span><span
-              class="extra-info__item-counter">23</span></div>
+          <div class="extra-info__right-col">
+            <div class="extra-info__item">
+              <img src="./img/extra-img-2.jpg" alt="" class="extra-info__item-image" width="140"><span class="extra-info__item-thumb"></span><span
+                class="extra-info__item-counter">23</span></div>
 
-          <div class="extra-info__item">
-            <img src="https://via.placeholder.com/140x140" alt="" class="extra-info__item-image"><span class="extra-info__item-thumb"></span><span
-              class="extra-info__item-counter">85</span></div></div>
+            <div class="extra-info__item">
+              <img src="./img/extra-img-3.jpg" alt="" class="extra-info__item-image" width="140"><span class="extra-info__item-thumb"></span><span
+                class="extra-info__item-counter">85</span></div>
+          </div>
         </div>
 
       </div>
 
-      <div class="main-item__img">
-        <div class="img-overlay">
-          <span class="img-overlay__thumb"></span>
-          <p class="img-overlay__text">За время работы проекта удалось собрать <span class="img-overlay__counter">340 356
-              870 Р
-            </span></p>
-          <p class="img-overlay__caption">Это <span class="img-overlay__sponsors">12 900 </span>пожертвований с 2016 года
-          </p>
-        </div>
+      <div class="img-overlay overlay-background-1">
+        <p class="img-overlay__text img-overlay__text--wide">За время работы проекта удалось собрать</p>
+        <p class="img-overlay__counter">340 356 870 Р</p>
+        <p class="img-overlay__caption img-overlay__caption--wide">Это <span class="img-overlay__sponsors">12 900 </span>пожертвований
+          с 2016 года
+        </p>
       </div>
-
     </div>
 
     <div class="features">
 
-      <div class="features-item">
-        <span class="features-item__thumb"></span>
-        <p class="features-item__text">Лечение</p>
+      <div class="features__left-row1">
+        <div class="features__item">
+          <img src="./img/features-img-0.png" alt="" class="features__item-image" width="60">
+          <p class="features__item__caption">Лечение</p>
+        </div>
+
+
+        <div class="features__item">
+          <img src="./img/features-img-1.png" alt="" class="features__item-image" width="60">
+          <p class="features__item__caption">Содержание</p>
+        </div>
       </div>
 
-      <div class="features-item">
-        <span class="features-item__thumb"></span>
-        <p class="features-item__text">Содержание</p>
-      </div>
+      <div class="features__right-row2">
+        <div class="features__item">
+          <img src="./img/features-img-2.png" alt="" class="features__item-image" width="60">
+          <p class="features__item__caption">Помощь приютам</p>
+        </div>
 
-      <div class="features-item">
-        <span class="features-item__thumb"></span>
-        <p class="features-item__text">Помощь приютам</p>
+        <div class="features__item">
+          <img src="./img/features-img-3.png" alt="" class="features__item-image" width="60">
+          <p class="features__item__caption">Стерилизация</p>
+        </div>
       </div>
-
-      <div class="features-item">
-        <span class="features-item__thumb"></span>
-        <p class="features-item__text">Стерилизация</p>
-      </div>
-
     </div>
 
     <div class="post">
       <h3 class="post__heading"><span class="post__heading--bold">Советы по уходу </span>за животными</h3>
-      <img src="https://via.placeholder.com/280x200" alt="" class="post__img">
+      <img src="./img/post-img.jpg" alt="" class="post__img" width="280">
       <p class="post__excerpt">Взял кошку с улицы, что делать в первую очередь?</p>
-      <a href="#" class="link post__link">Читать FAQ<span class="post__link post__link--more"></span></a>
+      <a href="#" class="link post__link post__link--more">Читать FAQ →</a>
     </div>
 
-    <div class="main-item__img">
-      <div class="img-overlay">
-        <h3 class="img-overlay__heading">А главное, тут знают: маленькой помощи не бывает</h3>
-        <p class="img-overlay__text">Каждые
-          <span class="img-overlay__text img-overlay__text--highlighted">100 рублей могут спасти жизнь </span>невинного существа</p>
-        <span class="img-overlay__thumb"></span>
-        <p class="img-overlay__caption">Выберите, как вы хотите помочь</p>
-        <button class="button">Хочу помочь!</button>
+    <!-- <div class="img-overlay__wrapper">
+      <div class="img-overlay overlay-background-2">
+        <p class="img-overlay__text img-overlay__text--large">А главное, тут все знают: маленькой помощи не бывает</p>
+        <p class="img-overlay__text img-overlay__text--wide">За время работы проекта удалось собрать</p>
+        <p class="img-overlay__counter">340 356 870 Р</p>
+        <p class="img-overlay__caption img-overlay__caption--wide">Это <span class="img-overlay__sponsors">12 900 </span>пожертвований
+          с 2016 года
+        </p>
+
+        <button class="button overlay__button">Хочу помочь!</button>
       </div>
-    </div>
+    </div> -->
 
   </main>
+
+  <div class="background-wrapper background-wrapper--cat">
+    <div class="call-to-donate">
+      <p class="call-to-donate__heading">А главное, тут все знают: маленькой помощи не бывает</p>
+      <p class="call-to-donate__text">Каждые <span class="call-to-donate__text call-to-donate__text--accient">100 рублей
+          могут спасти жизнь </span>невинного существа</p>
+      <p class="call-to-donate__caption">Выберите, как вы хотите помочь</p>
+      <button class="button call-to-donate__button">Хочу помочь!</button>
+    </div>
+  </div>
 
   <footer class="page-footer">
     <p class="page-footer__heading">Международный фонд помощи животным</p>
   </footer>
 
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script> -->
 </body>
 
 </html>

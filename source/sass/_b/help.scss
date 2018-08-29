@@ -1,5 +1,5 @@
 .help {
-  width: 87.5%;
+  width: 280px;
   margin: 0 auto;
 }
 
@@ -16,3 +16,36 @@
   text-align: center;
 }
 
+// .help::before {
+//   content: "";
+//   position: absolute;
+//   background-image: url("../../img/fire-thumb.svg");
+//   width: 29px;
+//   height: 36px;
+//   background-repeat: no-repeat;
+//   top: 50%;
+//   left: 50%;
+// }
+
+.help__link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  z-index: 100;
+}
+
+// .help::before {
+//   content: "";
+//   position: absolute;
+//   width: 172px;
+//   height: 7px;
+//   // background-color: rgb(254, 89, 56);
+//   background-image: url("../../img/thumb-highlight.svg");
+//   top: 815px;
+//   right: 673px;
+//   z-index: -1;
+// }
+
+.help__button {
+  margin-bottom: 40px;
+}

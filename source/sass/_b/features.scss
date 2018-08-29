@@ -1,0 +1,29 @@
+.features {
+  width: 280px;
+  margin: 0 auto;
+
+  margin-bottom: 50px;
+
+  border-bottom: 1px solid rgb(242, 242, 242);
+  padding-bottom: 40px;
+}
+
+.features__item {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__left-row1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features__right-row2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+

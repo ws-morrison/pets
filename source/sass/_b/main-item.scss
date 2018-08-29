@@ -1,3 +1,6 @@
+.main-item {
+  margin-bottom: 50px;
+}
 .main-item__heading {
   font-size: 22px;
   font-family: "Effra", "Arial", sans-serif;
@@ -9,10 +12,6 @@
 }
 
 .main-item__img {
-    display: flex;
-  flex-direction: column;
-
-  background-image: url('../img/img-item0.jpg');
+  background-image: url("../img/img-item0.jpg");
   background-repeat: no-repeat;
-  // background-position: 50% 50%;
 }

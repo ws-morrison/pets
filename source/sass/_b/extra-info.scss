@@ -1,3 +1,9 @@
+.extra-info {
+  width: 280px;
+  margin: 0 auto;
+
+  margin-bottom: 50px;
+}
 .extra-info__heading {
   text-align: center;
 }
@@ -6,21 +12,38 @@
   font-size: 26px;
   font-family: "Effra", "Arial", sans-serif;
   font-weight: 700;
+
+  margin: 0;
 }
 
 .extra-info__text--small {
   font-size: 16px;
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(117, 117, 117);
+
+  margin-bottom: 15px;
 }
 
 .extra-info__item-counter {
   font-size: 16px;
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(0, 0, 0);
+
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .extra-info__item {
   display: flex;
   flex-direction: column;
+}
+
+.extra-info__left-col {
+  display: flex;
+  text-align: center;
+}
+
+.extra-info__right-col {
+  display: flex;
+  text-align: center;
 }
