@@ -1,3 +1,12 @@
+.post__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
 
 .post__heading {
   font-size: 26px;
@@ -13,17 +22,4 @@
 .post__excerpt {
   font-size: 16px;
   font-family: "Effra", "Arial", sans-serif;
-}
-
-.Cоветы_по_уходу_за_животными {
-  font-size: 26px;
-  font-family: "Effra";
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  line-height: 1.154;
-  text-align: center;
-  position: absolute;
-  left: 56.937px;
-  top: 3363.236px;
-  z-index: 39;
 }

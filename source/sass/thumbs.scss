@@ -1,0 +1,72 @@
+.item-thumb--hands::before {
+  display: block;
+  content: "";
+  background-image: url('../img/hands-thumb.svg');
+  width: 51px;
+  height: 43px;
+  background-repeat: no-repeat;
+}
+
+.item-thumb--fire::before {
+  content: "";
+  display: block;
+  background-image: url("../img/fire-thumb.svg");
+  width: 29px;
+  height: 36px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.item-thumb--emergency::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/timer.svg");
+  width: 29px;
+  height: 36px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  bottom: -13px;
+  left: -6px;
+}
+
+
+.item-thumb--month::before {
+  content: "";
+  display: block;
+  background-image: url("../img/item-thumb-heart.svg");
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.item-thumb--extra::before {
+  content: "";
+  display: block;
+  background-image: url("../img/thumb-extra.png");
+  width: 22px;
+  height: 19px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+
+.item-thumb--year::before {
+  content: "";
+  display: block;
+  background-image: url("../img/img-thumb-piggy.svg");
+  width: 51px;
+  height: 43px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.item-thumb--click::before {
+  content: "";
+  display: block;
+  background-image: url("../img/img-thumb-click.svg");
+  width: 51px;
+  height: 43px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}

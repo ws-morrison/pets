@@ -2,17 +2,18 @@
   width: auto;
 }
 
-// .header-item::before {
+// .header-item__title::before {
+//   display: block;
 //   content: "";
-//   position: absolute;
 //   background-image: url('../../img/hands-thumb.svg');
 //   width: 51px;
 //   height: 43px;
 //   background-repeat: no-repeat;
-//   top: 270px;
 // }
 
 .header-item__title {
+  position: relative;
+  display: block;
   font-size: 26px;
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(255, 203, 105);
