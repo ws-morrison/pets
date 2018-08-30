@@ -20,7 +20,7 @@ gulp.task("style", function() {
 
 gulp.task("serve", ["style"], function() {
   server.init({
-    server: "source/",
+    server: "",
     notify: false,
     open: true,
     cors: true,
@@ -30,5 +30,4 @@ gulp.task("serve", ["style"], function() {
   gulp.watch("source/sass/**/*.{scss,sass}", ["style"]);
   gulp.watch("source/*.html").on("change", server.reload);
 });
-
 
