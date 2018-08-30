@@ -1,6 +1,17 @@
 .help {
-  width: 280px;
+  width: 100%;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.help__img {
+  width: 29px;
+  height: 36px;
+  align-self: center;
+
+  margin-bottom: 25px;
 }
 
 .help__heading {
@@ -16,15 +27,16 @@
   text-align: center;
 }
 
-// .help::before {
+// .help__thumb::before {
+//   display: block;
 //   content: "";
 //   position: absolute;
 //   background-image: url("../../img/fire-thumb.svg");
 //   width: 29px;
 //   height: 36px;
 //   background-repeat: no-repeat;
-//   top: 50%;
-//   left: 50%;
+//   top: 700px;
+//   right: 1100px;
 // }
 
 .help__link {
@@ -34,17 +46,18 @@
   z-index: 100;
 }
 
-// .help::before {
-//   content: "";
-//   position: absolute;
-//   width: 172px;
-//   height: 7px;
-//   // background-color: rgb(254, 89, 56);
-//   background-image: url("../../img/thumb-highlight.svg");
-//   top: 815px;
-//   right: 673px;
-//   z-index: -1;
-// }
+
+.help__caption::before {
+  content: "";
+  position: absolute;
+  width: 172px;
+  height: 7px;
+  background-color: rgb(254, 89, 56);
+  // background-image: url("../../img/thumb-highlight.svg");
+  top: 815px;
+  right: 673px;
+  z-index: -1;
+}
 
 .help__button {
   margin-bottom: 40px;
