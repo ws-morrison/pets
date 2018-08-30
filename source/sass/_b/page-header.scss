@@ -1,5 +1,10 @@
 .page-header {
-  width: 87.5%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  width: 100%;
+   margin-bottom: 50px;
+   box-sizing: border-box;
+   background-image: url('../img/bg-header.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+
+   background-size: cover;
 }

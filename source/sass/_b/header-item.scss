@@ -1,16 +1,16 @@
 .header-item {
-  width: 60%;
+  width: auto;
 }
 
-.header-item::before {
-  content: "";
-  position: absolute;
-  background-image: url('../../img/hands-thumb.svg');
-  width: 51px;
-  height: 43px;
-  background-repeat: no-repeat;
-  top: 270px;
-}
+// .header-item::before {
+//   content: "";
+//   position: absolute;
+//   background-image: url('../../img/hands-thumb.svg');
+//   width: 51px;
+//   height: 43px;
+//   background-repeat: no-repeat;
+//   top: 270px;
+// }
 
 .header-item__title {
   font-size: 26px;
