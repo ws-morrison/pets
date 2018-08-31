@@ -1,5 +1,9 @@
+body {
+  width: 100%;
+}
+
 .contanier {
-  min-width: 320px;
+  min-width: 87.5%;
   margin: 0 auto;
   padding: 0 20px 0 20px;
   box-sizing: border-box;
@@ -17,7 +21,8 @@ img {
   margin: -1px;
 }
 
-body {
-  width: 100%;
-}
 
+.link {
+  text-decoration: none;
+  color: rgb(58, 185, 195);
+}
