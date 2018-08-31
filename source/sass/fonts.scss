@@ -1,15 +1,76 @@
+// @font-face {
+//     font-family: 'Effra-Regular';
+//     src:
+//         url('../fonts/Effra-Regular.woff2') format('woff2'),
+//         url('../fonts/Effra-Regular.woff') format('woff'),
+//         url('../fonts/Effra-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Effra-Italic';
+//     src:
+//         url('../fonts/Effra-Italic.woff2') format('woff2'),
+//         url('../fonts/Effra-Italic.woff') format('woff'),
+//         url('../fonts/Effra-Italic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Effra';
+//     src:
+//         url('../fonts/EffraMedium-Regular.woff2') format('woff2'),
+//         url('../fonts/EffraMedium-Regular.woff') format('woff'),
+//         url('../fonts/EffraMedium-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+
 @font-face {
-    font-family: 'Effra-Regular';
+    font-family: 'Effra';
     src:
-        url('../fonts/Effra-Regular.woff2') format('woff2'),
-        url('../fonts/Effra-Regular.woff') format('woff'),
-        url('../fonts/Effra-Regular.ttf') format('truetype');
-    font-weight: normal;
+        url('../fonts/Effra-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Effra-BoldItalic.woff') format('woff'),
+        url('../fonts/Effra-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/EffraLight-Italic.woff2') format('woff2'),
+        url('../fonts/EffraLight-Italic.woff') format('woff'),
+        url('../fonts/EffraLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-Bold.woff2') format('woff2'),
+        url('../fonts/Effra-Bold.woff') format('woff'),
+        url('../fonts/Effra-Bold.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Effra-Italic';
+    font-family: 'Effra';
+    src:
+        url('../fonts/EffraMedium-Regular.woff2') format('woff2'),
+        url('../fonts/EffraMedium-Regular.woff') format('woff'),
+        url('../fonts/EffraMedium-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
     src:
         url('../fonts/Effra-Italic.woff2') format('woff2'),
         url('../fonts/Effra-Italic.woff') format('woff'),
@@ -21,11 +82,150 @@
 @font-face {
     font-family: 'Effra';
     src:
-        url('../fonts/EffraMedium-Regular.woff2') format('woff2'),
-        url('../fonts/EffraMedium-Regular.woff') format('woff'),
-        url('../fonts/EffraMedium-Regular.ttf') format('truetype');
+        url('../fonts/Effra-Regular.woff2') format('woff2'),
+        url('../fonts/Effra-Regular.woff') format('woff'),
+        url('../fonts/Effra-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/EffraMedium-Italic.woff2') format('woff2'),
+        url('../fonts/EffraMedium-Italic.woff') format('woff'),
+        url('../fonts/EffraMedium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/EffraHeavy-Regular.woff2') format('woff2'),
+        url('../fonts/EffraHeavy-Regular.woff') format('woff'),
+        url('../fonts/EffraHeavy-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/EffraLight-Regular.woff2') format('woff2'),
+        url('../fonts/EffraLight-Regular.woff') format('woff'),
+        url('../fonts/EffraLight-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/EffraHeavy-Italic.woff2') format('woff2'),
+        url('../fonts/EffraHeavy-Italic.woff') format('woff'),
+        url('../fonts/EffraHeavy-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra.woff2') format('woff2'),
+        url('../fonts/Effra.woff') format('woff'),
+        url('../fonts/Effra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Effra-MediumItalic.woff') format('woff'),
+        url('../fonts/Effra-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-Italic_1.woff2') format('woff2'),
+        url('../fonts/Effra-Italic_1.woff') format('woff'),
+        url('../fonts/Effra-Italic_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-Heavy.woff2') format('woff2'),
+        url('../fonts/Effra-Heavy.woff') format('woff'),
+        url('../fonts/Effra-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-LightItalic.woff2') format('woff2'),
+        url('../fonts/Effra-LightItalic.woff') format('woff'),
+        url('../fonts/Effra-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-Light.woff2') format('woff2'),
+        url('../fonts/Effra-Light.woff') format('woff'),
+        url('../fonts/Effra-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-Bold_1.woff2') format('woff2'),
+        url('../fonts/Effra-Bold_1.woff') format('woff'),
+        url('../fonts/Effra-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/EffraHeavy-Italic_1.woff2') format('woff2'),
+        url('../fonts/EffraHeavy-Italic_1.woff') format('woff'),
+        url('../fonts/EffraHeavy-Italic_1.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-BoldItalic_1.woff2') format('woff2'),
+        url('../fonts/Effra-BoldItalic_1.woff') format('woff'),
+        url('../fonts/Effra-BoldItalic_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src:
+        url('../fonts/Effra-Medium.woff2') format('woff2'),
+        url('../fonts/Effra-Medium.woff') format('woff'),
+        url('../fonts/Effra-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 
