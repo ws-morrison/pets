@@ -1,11 +1,10 @@
 .item-thumb--hands::before {
   display: block;
   content: "";
-  background-image: url('../img/hands-thumb.svg');
+  background-image: url("../img/hands-thumb.svg");
   width: 51px;
   height: 43px;
   background-repeat: no-repeat;
-
   margin-bottom: 15px;
 }
 
@@ -33,7 +32,6 @@
   left: -6px;
 }
 
-
 .item-thumb--month::before {
   content: "";
   display: block;
@@ -42,6 +40,7 @@
   height: 41px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .item-thumb--extra::before {
@@ -54,7 +53,6 @@
   margin: 0 auto;
 }
 
-
 .item-thumb--year::before {
   content: "";
   display: block;
@@ -63,6 +61,7 @@
   height: 43px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .item-thumb--click::before {
@@ -73,4 +72,17 @@
   height: 43px;
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .item-thumb--hands::before {
+    display: block;
+    content: "";
+    background-image: url("../img/hands-thumb.svg");
+    width: 51px;
+    height: 43px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
 }

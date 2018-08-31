@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
 
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 40px;
 
   text-align: center;
@@ -44,6 +44,10 @@
 // .img-overlay__text--wide {
 //   width: 210px;
 // }
+
+.img-overlay__text-wrapper {
+  width: 80%;
+}
 
 .img-overlay__counter {
   font-size: 36px;
