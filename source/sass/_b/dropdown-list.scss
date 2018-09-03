@@ -12,6 +12,22 @@
 //   list-style: none;
 // }
 
+.dropdown-list__heading {
+  background-color: rgb(244, 244, 244);
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.dropdown-list__heading--active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 185, 195);
+}
+
 .docs__wrapper {
   width: 100%;
   display: flex;
@@ -31,7 +47,6 @@
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(0, 0, 0);
 }
-
 
 .docs-item__desc {
   font-size: 13px;

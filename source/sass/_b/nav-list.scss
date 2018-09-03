@@ -5,9 +5,20 @@
 }
 
 .nav-list__link {
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
+
 
 .nav-list__text {
   font-size: 26px;
 }
+
+.nav-list__link--active {
+  background-color: rgb(58, 185, 195);
+  color: rgb(255, 255, 255);
+  // border-radius: 50px;
+}
+
+
+
