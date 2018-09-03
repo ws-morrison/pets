@@ -1,6 +1,18 @@
 body {
   width: 100%;
 }
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-body {
+  font-family: "Effra", "Arial", sans-serif;
+}
 
 .contanier {
   // min-width: 100%;
@@ -9,10 +21,6 @@ body {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -20,7 +28,6 @@ img {
   height: 1px;
   margin: -1px;
 }
-
 
 .link {
   text-decoration: none;

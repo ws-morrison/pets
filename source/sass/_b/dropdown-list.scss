@@ -1,0 +1,42 @@
+// .docs-list {
+//   width: 100%;
+//   padding: 0;
+//   margin: 0;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-evenly;
+// }
+
+// .docs-item {
+//   width: 40%;
+//   list-style: none;
+// }
+
+.docs__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.docs__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 140px;
+}
+
+.docs-item__text {
+  font-size: 15px;
+  font-family: "Effra", "Arial", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+
+.docs-item__desc {
+  font-size: 13px;
+}
+.docs-item__size {
+  font-size: 13px;
+  color: rgb(117, 117, 117);
+}

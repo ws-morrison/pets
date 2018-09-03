@@ -1,22 +1,26 @@
 .page-header {
   width: 100%;
   //  margin-bottom: 50px;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .page-header--bg {
-   background-image: url('../img/bg-header.jpg');
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .page-header__title {
   font-size: 15px;
   font-family: "Effra", "Arial", sans-serif;
   font-weight: 400;
-  color: rgb(233, 233, 233);
+  width: 35%;
+  margin: 0;
+  // margin-bottom: 70px;
+}
 
+.page-header__title--special {
   width: 75%;
-
   margin-bottom: 70px;
+  color: rgb(233, 233, 233);
 }
