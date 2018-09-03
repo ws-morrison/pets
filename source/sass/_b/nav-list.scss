@@ -8,7 +8,10 @@
 .nav-list__text {
   font-size: 26px;
 }
-
+.nav-list__link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 .nav-list__button--active {
   display: flex;
   justify-content: center;
@@ -17,13 +20,10 @@
   height: 40px;
   border-radius: 50px;
   background-color: rgb(58, 185, 195);
+  padding: 0 5px;
 
   .nav-list__link {
     color: rgb(255, 255, 255);
   }
 }
 
-.nav-list__link {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}

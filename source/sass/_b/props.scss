@@ -1,0 +1,28 @@
+.props {
+
+}
+.props__heading {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.props__heading--bold {
+  font-weight: 700;
+}
+.props__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.props__item {
+  margin-bottom: 20px;
+}
+
+.props__text {
+  padding: 0;
+}
+.props__text--bold {
+  font-weight: 700;
+}
