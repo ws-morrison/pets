@@ -7,29 +7,46 @@
   height: 82px;
   border-radius: 50px;
 
-  background: #93cede;
-  background: -webkit-gradient(
-    left top,
-    left bottom,
-    color-stop(0%, #93cede),
-    color-stop(41%, #75bdd1),
-    color-stop(100%, #49a5bf)
-  );
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#93cede),
-    color-stop(41%, #75bdd1),
-    to(#49a5bf)
-  );
-  background: linear-gradient(to bottom, #bdebf7 0%, #34bbe1 41%, #318da7 100%);
-  -webkit-box-shadow: 0px 4px 0px 0px #1c7fa0;
-  box-shadow: 0px 4px 0px 0px #447c8f;
+  // background: #93cede;
+  // background: -webkit-gradient(
+  //   left top,
+  //   left bottom,
+  //   color-stop(0%, #93cede),
+  //   color-stop(41%, #75bdd1),
+  //   color-stop(100%, #49a5bf)
+  // );
+  // background: -webkit-gradient(
+  //   linear,
+  //   left top,
+  //   left bottom,
+  //   from(#93cede),
+  //   color-stop(41%, #75bdd1),
+  //   to(#49a5bf)
+  // );
+  // background: linear-gradient(to bottom, #bdebf7 0%, #34bbe1 41%, #318da7 100%);
+  // -webkit-box-shadow: 0px 4px 0px 0px #1c7fa0;
+
+  // box-shadow: 0px 4px 0px 0px #447c8f;
+  background-image: linear-gradient( 0deg, rgb(57, 145, 174) 0%, rgb(60, 206, 208) 100%);
+  border-bottom: solid 3px rgb(28, 127, 160);
 }
 
 .button__wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+
+.Rounded_Rectangle_1 {
+  background-image: -moz-linear-gradient( 90deg, rgb(56,137,168) 0%, rgb(59,204,205) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(56,137,168) 0%, rgb(59,204,205) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(56,137,168) 0%, rgb(59,204,205) 100%);
+  box-shadow: 0px 4px 0px 0px rgba(28, 128, 160, 0.004);
+  position: absolute;
+  left: 19px;
+  top: 492px;
+  width: 281px;
+  height: 82px;
+  z-index: 8;
 }
