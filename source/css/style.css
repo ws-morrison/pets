@@ -875,6 +875,16 @@ img {
   background-position: center;
   background-size: cover; }
 
+@media (min-width: 768px) {
+  .img-overlay {
+    padding-top: 200px;
+    padding-bottom: 200px; } }
+
+@media (min-width: 1024px) {
+  .img-overlay {
+    padding-top: 200px;
+    padding-bottom: 200px; } }
+
 .extra-info {
   margin-bottom: 50px; }
 
