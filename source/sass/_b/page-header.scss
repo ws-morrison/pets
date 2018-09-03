@@ -2,12 +2,14 @@
   width: 100%;
   //  margin-bottom: 50px;
    box-sizing: border-box;
+}
+
+.page-header--bg {
    background-image: url('../img/bg-header.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
 }
-
 .page-header__title {
   font-size: 15px;
   font-family: "Effra", "Arial", sans-serif;
