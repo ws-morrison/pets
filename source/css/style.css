@@ -785,30 +785,16 @@ img {
 .progress {
   width: 280px;
   margin: auto 0;
-  margin-bottom: 15px; }
-
-.progress-bar {
-  overflow: hidden;
-  height: 18px;
-  background-repeat: repeat-x;
+  margin-bottom: 15px;
   background-color: #f2f2f2;
   border-radius: 15px;
   margin-top: 10px; }
 
-.progress-bar__inner {
-  height: 18px;
-  background: linear-gradient(45deg, #fc442c 0%, #ffa85b 100%);
+.progress-bar {
+  height: 15px;
   background-repeat: repeat-x;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15); }
-
-.progress-desc {
-  font-size: 16px;
-  font-family: "Effra", "Arial", sans-serif;
-  font-weight: 400; }
-
-.progress-desc--bold {
-  font-weight: 700; }
+  border-radius: 15px;
+  background-image: url("../img/progress-bg.png"); }
 
 .main-item {
   margin-bottom: 50px; }
