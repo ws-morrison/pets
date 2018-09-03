@@ -2,23 +2,28 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+    align-items: center;
+  flex-wrap: wrap;
+}
+.nav-list__text {
+  font-size: 26px;
+}
+
+.nav-list__button--active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(58, 185, 195);
+
+  .nav-list__link {
+    color: rgb(255, 255, 255);
+  }
 }
 
 .nav-list__link {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
-
-
-.nav-list__text {
-  font-size: 26px;
-}
-
-.nav-list__link--active {
-  background-color: rgb(58, 185, 195);
-  color: rgb(255, 255, 255);
-  // border-radius: 50px;
-}
-
-
-

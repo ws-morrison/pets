@@ -556,8 +556,9 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding-top: 25px;
   margin-bottom: 33px; }
 
@@ -568,18 +569,40 @@ img {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.nav-list__text {
+  font-size: 26px; }
+
+.nav-list__button--active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #3ab9c3; }
+  .nav-list__button--active .nav-list__link {
+    color: white; }
 
 .nav-list__link {
   color: black;
   text-decoration: none; }
 
-.nav-list__text {
-  font-size: 26px; }
-
-.nav-list__link--active {
-  background-color: #3ab9c3;
-  color: white; }
+.docs {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #f2f2f2; }
 
 .dropdown-list__heading {
   background-color: #f4f4f4;
@@ -610,7 +633,10 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px; }
 
 .docs__item {
   display: -webkit-box;
@@ -624,6 +650,19 @@ img {
       -ms-flex-align: center;
           align-items: center;
   width: 140px; }
+
+.doc__text-wrapper {
+  text-align: left; }
+
+.docs__item::before {
+  content: "";
+  position: relative;
+  right: 50px;
+  top: 47px;
+  background-image: url("../img/doc-thumb.png");
+  width: 27px;
+  height: 28px;
+  background-repeat: no-repeat; }
 
 .docs-item__text {
   font-size: 15px;
