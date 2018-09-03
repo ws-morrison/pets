@@ -672,9 +672,6 @@ img {
   color: white; }
 
 .button {
-  font-size: 20px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: white;
   border: none;
   width: 280px;
   height: 82px;
@@ -692,16 +689,10 @@ img {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.Rounded_Rectangle_1 {
-  background-image: -ms-linear-gradient(90deg, #3889a8 0%, #3bcccd 100%);
-  -webkit-box-shadow: 0px 4px 0px 0px rgba(28, 128, 160, 0.004);
-          box-shadow: 0px 4px 0px 0px rgba(28, 128, 160, 0.004);
-  position: absolute;
-  left: 19px;
-  top: 492px;
-  width: 281px;
-  height: 82px;
-  z-index: 8; }
+.button__link {
+  font-size: 20px;
+  font-family: "Effra", "Arial", sans-serif;
+  color: white; }
 
 .help {
   width: 100%;
