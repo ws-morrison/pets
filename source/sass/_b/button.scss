@@ -22,3 +22,20 @@
   font-family: "Effra", "Arial", sans-serif;
   color: rgb(255, 255, 255);
 }
+
+.more-button {
+  border: none;
+  width: 280px;
+  height: 72px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: solid 3px rgb(58, 185, 195);
+}
+
+.more-button__link {
+  font-size: 18px;
+  color: rgb(58, 185, 195);
+  text-align: center;
+}

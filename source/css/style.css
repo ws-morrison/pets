@@ -573,7 +573,7 @@ img {
   margin-bottom: 33px; }
 
 .header-nav__wrapper {
-  width: 50%;
+  width: 75%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -592,15 +592,30 @@ img {
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  margin-top: 30px; }
 
 .nav-list__text {
   font-size: 26px;
   text-align: center; }
 
+.nav-list__caption {
+  font-size: 18px; }
+
+.nav-list__text--left-align {
+  padding: 0;
+  margin: 0;
+  text-align: left; }
+
+.nav-list__text--caption {
+  font-size: 18px; }
+
 .nav-list__link {
   color: black;
   text-decoration: none; }
+
+.nav-list__button {
+  font-size: 15px; }
 
 .nav-list__button--active {
   display: -webkit-box;
@@ -616,8 +631,26 @@ img {
   height: 40px;
   border-radius: 50px;
   background-color: #3ab9c3;
-  padding: 0 5px; }
+  padding: 0; }
   .nav-list__button--active .nav-list__link {
+    color: white; }
+
+.nav-list__button--active-emergency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #fe7a45;
+  padding: 0; }
+  .nav-list__button--active-emergency .nav-list__link {
     color: white; }
 
 @media (min-width: 768px) {
@@ -844,6 +877,21 @@ img {
   font-family: "Effra", "Arial", sans-serif;
   color: white; }
 
+.more-button {
+  border: none;
+  width: 280px;
+  height: 72px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 50px;
+  border: solid 3px #3ab9c3; }
+
+.more-button__link {
+  font-size: 18px;
+  color: #3ab9c3;
+  text-align: center; }
+
 .help {
   width: 100%;
   margin: 0 auto;
@@ -858,6 +906,9 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 42px; }
+
+.help--line {
+  border-bottom: 1px solid #f2f2f2; }
 
 .help__heading {
   display: block;
@@ -937,9 +988,6 @@ img {
   border-radius: 15px;
   background-image: url("../img/progress-bg.png"); }
 
-.main-item {
-  margin-bottom: 50px; }
-
 .main-item__heading {
   font-size: 22px;
   font-family: "Effra", "Arial", sans-serif;
@@ -969,7 +1017,8 @@ img {
           align-items: center;
   padding-top: 50px;
   padding-bottom: 40px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 .img-overlay__heading {
   font-size: 26px;
