@@ -1,10 +1,10 @@
 .nav-list__wrapper {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .nav-list__text {
   font-size: 26px;
   text-align: center;
@@ -25,5 +25,17 @@
 
   .nav-list__link {
     color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-list__wrapper {
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-list__wrapper {
+    padding: 0 200px;
   }
 }
