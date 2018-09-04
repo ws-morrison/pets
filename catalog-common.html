@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./source/css/style.css">
+  <title>Pets</title>
+</head>
+
+<body class="page-body">
+  <header class="page-header">
+    <div class="contanier">
+      <nav class="header-nav">
+        <h1 class="page-header__title">Международный фонд помощи животным</h1>
+        <div class="header-nav__wrapper">
+          <div class="header-login">
+            <a href="#" class="link header-login__link">Личный кабинет</a>
+          </div>
+
+          <div class="burger">
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+          </div>
+        </div>
+      </nav>
+      <p class="nav-list__text nav-list__text--left-align"> <b class="nav-list__text--bold">112 сборов</b> </p>
+      <p class="nav-list__text nav-list__text--left-align nav-list__text--caption">открыты прямо сейчас</p>
+
+      <nav class="nav-list">
+        <div class="nav-list__wrapper">
+          <div class="nav-list__button">
+            <a href="#" class="nav-list__link">14 срочных</a></div>
+          <div class="nav-list__button nav-list__button--active">
+            <a href="#" class="nav-list__link">Остальные</a></div>
+          <div class="nav-list__button">
+            <a href="#" class="nav-list__link">Завершенные</a></div>
+        </div>
+        <p class="nav-list__caption">Выберите, в чем именно хотели бы помочь</p>
+      </nav>
+      <select class="select" name="select-help" id="help_select">
+        <option value="all">Все</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <section class="post">
+      <div class="contanier">
+        <div class="post__wrapper">
+          <p class="post__heading">Собрано <b class="post__heading--bold">410 000 руб. </b></p>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar--green" style="width: 41%">
+            </div>
+          </div>
+
+          <p class="post__excerpt post__excerpt--align-left"><b class="post__excerpt post__excerpt--bold">Поддержали:</b>
+            Елена Р., Роман, Константин, Дима, Sara, Mark.R и ещё <a href="#" class="link post__link">203 человека</a></p>
+
+          <img src="./source/img/help-img-3.jpg" alt="" class="post__img" width="280">
+
+          <p class="post__text post__text--align-left">
+            По статистике за 7 лет одна собака и её потомство способны произвести до 67 000 щенков, кошка и её потомство — до 420 000
+            котят, и их подавляющее большинство окажется на улице или будет убито при рождении
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="fix-donate">
+      <div class="contanier">
+        <!-- <form action="" class="donation-form">
+          <label for="donation-500"><input class="donation-form__check" type="checkbox" id="donation-500">
+            <span class="donation-form__desc">Хватит на перевязочные материалы*</span>
+          </label>
+
+          <label for="donation-1000"><input class="donation-form__check" type="checkbox" id="donation-1000">
+            <span class="donation-form__desc">Хватит на анастезию*</span>
+          </label>
+
+          <label for="donation-2000">
+            <input class="donation-form__check" type="checkbox" id="donation-2000">
+            <span class="donation-form__desc">Минимальная цена стерилизации*</span>
+          </label>
+
+          <label for="donation-3000">
+            <input class="donation-form__check" type="checkbox" id="donation-3000">
+            <span class="donation-form__desc">Минимальная цена 2 дней передержки*</span>
+          </label>
+
+          <label for="donation-sum">
+            <input class="donation-form__check" type="number" id="donation-sum" placeholder="Любая сумма">
+          </label>
+          <div class="button__wrapper">
+            <button class="button donation__button"><a href="#" class="button__link">Пожертвовать</a></button>
+          </div>
+        </form> -->
+        <p class="fix-donate__header">Сколько вы можете пожертвовать?</p>
+        <div class="donation-item__wrapper">
+          <div class="donation-item donation-item--active">
+            <span class="donation-item__heading donation-item__heading--active">500 Р</span>
+            <span class="donation-item__heading donation-item__heading--caption donation-item__heading--active">Хватит на
+              перевязочные материалы*
+            </span>
+          </div>
+
+          <div class="donation-item">
+            <span class="donation-item__heading">1000 Р</span>
+            <span class="donation-item__heading donation-item__heading--caption">Хватит на анастезию*</span>
+          </div>
+
+          <div class="donation-item">
+            <span class="donation-item__heading">2000 Р</span>
+            <span class="donation-item__heading donation-item__heading--caption">Минимальная цена стерилизации*</span>
+          </div>
+
+          <div class="donation-item">
+            <span class="donation-item__heading">3000 Р</span>
+            <span class="donation-item__heading donation-item__heading--caption">Минимальная цена 2 дней передержки*</span>
+          </div>
+        </div>
+        <p class="donation__caption">*Это бессрочный сбор. Все средства распределяются между организациями равными частями.
+          Стоимость процедуры зависит от города, клиники и множества факторов, поэтому выше приведены средние цены</p>
+      </div>
+    </section>
+
+    <!-- <div class="aside">
+      <p class="aside__heading">Возможно, вы хотели бы знать:</p>
+      <ul class="aside__list">
+        <li class="aside__item"><a href="" class="aside__link">Стерилизация. Безусловное благо</a></li>
+        <li class="aside__item"><a href="" class="aside__link">Стерилизация — спасение от смерти</a></li>
+        <li class="aside__item"><a href="" class="aside__link">Правда и мифы о стерелизации</a></li>
+        <li class="aside__item"><a href="" class="aside__link">О пользе стерилизации собак и кошек</a></li>
+      </ul>
+    </div>
+
+        <div class="aside">
+          <p class="aside__heading">Другие направления сборов:</p>
+          <ul class="aside__list">
+            <li class="aside__item"><a href="" class="aside__link">Лечение</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Содержание</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Помощь приюту</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Ищут дом</a></li>
+            <li class="aside__item"><a href="" class="aside__link">Передержка</a></li>
+          </ul>
+        </div> -->
+  </main>
+
+  <footer class="page-footer">
+    <div class="contanier">
+      <p class="page-footer__heading">Международный фонд помощи животным</p>
+      <!-- Временный -->
+      <ul class="temporary">Временное меню:
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="report">Отчёт</a></li>
+        <li><a href="docs.html">Документы</a></li>
+        <li><a href="about-project.html">О проекте</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="#">Общий каталог</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+      <!--  -->
+    </div>
+  </footer>
+</body>

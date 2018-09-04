@@ -1,0 +1,38 @@
+.fix-donate__header {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.donation-item {
+  width: 280px;
+  height: 90px;
+  border-radius: 5px;
+  border: 1px solid rgb(211, 211, 211);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.donation-item__heading {
+  font-size: 28px;
+  padding-left: 20px;
+}
+
+.donation-item__heading--caption {
+  font-size: 14px;
+}
+
+.donation-item--active {
+  border: 1px solid rgb(58, 185, 195);
+  background-color: rgb(58, 185, 195);
+}
+
+.donation-item__heading--active {
+  color: rgb(255, 255, 255);
+}
+
+.donation-item__heading--caption {
+  font-size: 14px;
+}
