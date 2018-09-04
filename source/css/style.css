@@ -649,6 +649,17 @@ img {
   padding: 0;
   margin-bottom: 30px; }
 
+.docs__text-wide-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
+
 .docs__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -675,7 +686,7 @@ img {
   height: 28px;
   background-repeat: no-repeat; }
 
-.docs__item-link::before {
+.docs__item--wide::before {
   right: 120px;
   top: 30px; }
 
@@ -685,7 +696,9 @@ img {
   color: black; }
 
 .docs__item-link {
-  display: block;
+  width: 100px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   color: black; }
 
 .docs-item__desc {
