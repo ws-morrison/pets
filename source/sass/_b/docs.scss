@@ -2,9 +2,15 @@
   margin-bottom: 30px;
   border-bottom: 1px solid rgb(242, 242, 242);
 }
-
+.dropdown-list-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .dropdown-list__heading {
   background-color: rgb(244, 244, 244);
+  width: 300px;
   height: 58px;
   display: flex;
   justify-content: space-between;
