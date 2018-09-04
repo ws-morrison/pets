@@ -4,12 +4,26 @@
 .extra-info__heading {
   text-align: center;
 }
+// .extra-info__heading--left {
+//   text-align: left;
+// }
+
+// .вы_сможете_легко_и_быстро_помочь_животным {
+//   font-size: 26px;
+//   font-family: "Effra";
+//   color: rgb(0, 0, 0);
+//   line-height: 1.154;
+//   text-align: left;
+//   position: absolute;
+//   left: 17.766px;
+//   top: 604.327px;
+//   z-index: 47;
+// }
 
 .extra-info__text {
   font-size: 26px;
   font-family: "Effra", "Arial", sans-serif;
-  font-weight: 700;
-
+  font-weight: 400;
   margin: 0;
 }
 
@@ -64,4 +78,22 @@
   // background-image: url("../../img/thumb-highlight.svg");
   z-index: -1;
   top: 20px;
+}
+
+.about-list__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__list {
+  padding: 0;
+  margin: 0;
+}
+.about-list__heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-list__item {
+  font-size: 16px;
+  margin-bottom: 15px;
 }

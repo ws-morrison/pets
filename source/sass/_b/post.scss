@@ -1,3 +1,6 @@
+.post {
+  margin-bottom: 40px;
+}
 .post__wrapper {
   display: flex;
   flex-direction: column;
@@ -22,4 +25,8 @@
 .post__excerpt {
   font-size: 16px;
   font-family: "Effra", "Arial", sans-serif;
+}
+
+.post__text {
+  font-size: 16px;
 }
