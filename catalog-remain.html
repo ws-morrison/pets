@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./source/css/style.css">
+  <title>Pets</title>
+</head>
+
+<body class="page-body">
+
+  <header class="page-header">
+    <div class="contanier">
+      <nav class="header-nav">
+        <h1 class="page-header__title">Международный фонд помощи животным</h1>
+        <div class="header-nav__wrapper">
+          <div class="header-login">
+            <a href="#" class="link header-login__link">Личный кабинет</a>
+          </div>
+
+          <div class="burger">
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+          </div>
+        </div>
+      </nav>
+      <p class="nav-list__text nav-list__text--left-align"> <b class="nav-list__text--bold">112 сборов</b> </p>
+      <p class="nav-list__text nav-list__text--left-align nav-list__text--caption">открыты прямо сейчас</p>
+
+      <nav class="nav-list">
+        <div class="nav-list__wrapper">
+          <div class="nav-list__button">
+            <a href="#" class="nav-list__link">14 срочных</a></div>
+          <div class="nav-list__button nav-list__button--active">
+            <a href="#" class="nav-list__link">Остальные</a></div>
+          <div class="nav-list__button">
+            <a href="#" class="nav-list__link">Завершенные</a></div>
+        </div>
+        <p class="nav-list__caption">Выберите, в чем именно хотели бы помочь</p>
+      </nav>
+      <select class="select" name="select-help" id="help_select">
+        <option value="all">2018</option>
+      </select>
+    </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <!-- <section class="help">
+      <div class="contanier">
+        <p class="help__caption help__caption--left-align">Вы успеете помочь!</p>
+        <div class="help__wrapper">
+          <div class="item-state">
+            <img src="./source/img/help-img.jpg" alt="" class="help__image" width="280" height="205">
+            <span class="item-state__text item-thumb item-thumb--emergency">Осталось <span class="item-state__counter">3
+                дня
+              </span></span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar" style="width: 41%">
+            </div>
+          </div>
+
+          <p class="progress-desc"><b class="progress-desc progress-desc--bold">Собрано <span class="progress-desc__counter">410
+                000 руб.</span></b> из 1 000 000 руб.</p>
+        </div>
+        <div class="main-item">
+          <p class="main-item__heading">Помогите Джесси узнавать мир не только по запаху: она не видит с рождения</p>
+          <a href="#" class="link main-item__link main-item__link--more">Подробнее →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="help">
+      <div class="contanier">
+        <p class="help__caption help__caption--left-align">Присоединяйтесь!</p>
+        <div class="help__wrapper">
+          <div class="item-state">
+            <img src="./source/img/help-img-1.jpg" alt="" class="help__image" width="280" height="205">
+            <span class="item-state__text item-thumb item-thumb--emergency">Осталось <span class="item-state__counter">3
+                дня
+              </span></span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar--green" style="width: 41%">
+            </div>
+          </div>
+
+          <p class="progress-desc"><b class="progress-desc progress-desc--bold">Собрано <span class="progress-desc__counter">410
+                000 руб.</span></b> из 1 000 000 руб.</p>
+        </div>
+        <div class="main-item">
+          <p class="main-item__heading">Помогите Джесси узнавать мир не только по запаху: она не видит с рождения</p>
+          <a href="#" class="link main-item__link main-item__link--more">Подробнее →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="help">
+      <div class="contanier">
+        <p class="help__caption help__caption--left-align">Помогите сделать популярным!</p>
+        <div class="help__wrapper">
+          <div class="item-state">
+            <img src="./source/img/help-img-3.jpg" alt="" class="help__image" width="280" height="205">
+            <span class="item-state__text item-thumb item-thumb--emergency">Осталось <span class="item-state__counter">3
+                дня
+              </span></span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar--green" style="width: 11%">
+            </div>
+          </div>
+
+          <p class="progress-desc"><b class="progress-desc progress-desc--bold">Собрано <span class="progress-desc__counter">110
+                000 руб.</span></b> из 1 000 000 руб.</p>
+        </div>
+        <div class="main-item">
+          <p class="main-item__heading">Помогите Джесси узнавать мир не только по запаху: она не видит с рождения</p>
+          <a href="#" class="link main-item__link main-item__link--more">Подробнее →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="help">
+      <div class="contanier">
+        <p class="help__caption help__caption--left-align">Помогите ближнему</p>
+        <div class="help__wrapper">
+          <div class="item-state">
+            <img src="./source/img/help-img-4.jpg" alt="" class="help__image" width="280" height="205">
+            <span class="item-state__text item-thumb item-thumb--emergency">Осталось <span class="item-state__counter">3
+                дня
+              </span></span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar--green" style="width: 32%">
+            </div>
+          </div>
+
+          <p class="progress-desc"><b class="progress-desc progress-desc--bold">Собрано <span class="progress-desc__counter">320
+                000 руб.</span></b> из 1 000 000 руб.</p>
+        </div>
+        <div class="main-item">
+          <p class="main-item__heading">Помогите Джесси узнавать мир не только по запаху: она не видит с рождения</p>
+          <a href="#" class="link main-item__link main-item__link--more">Подробнее →
+          </a>
+        </div>
+      </div>
+    </section> -->
+    <section class="donate">
+      <div class="contanier">
+        <form class="donate-form">
+          <p class="donate__heading">Не знаете, кому помочь?<br> <b class="donate__heading donate__heading--bold">Помогите
+              всем
+            </b></p>
+          <span class="donate-slider__output">500 Р</span>
+          <!-- <div class="donate-slider">
+            <input class="donate-slider__range" type="range" value="100" min="0" max="5000">
+          </div> -->
+
+          <!-- <label for="one-time">
+            <input type="radio" id="donate-one-time" checked> Разово
+          </label>
+          <label for="donate-month">
+            <input type="radio" id="donate-month"> Ежемесячно
+          </label> -->
+
+          <div class="donate-form__button-wrapper">
+            <div class="donate-form__button donate-form__button--active">
+              <span class="donate-form__button__heading donate-form__button__heading--active">Разово</span>
+
+            </div>
+
+            <div class="donate-form__button">
+              <span class="donate-form__button__heading">Ежемесячно</span>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+
+    <section class="pay-method">
+      <div class="contanier">
+        <p class="pay-method__heading">Выберите способ оплаты</p>
+        <div class="pay-method__list">
+
+          <div class="pay-method__wrapper">
+            <div class="pay-method__item">
+              <a href="" class="pay-method__link">
+                <img src="./source/img/visa.png" alt="" class="pay-method__img" width="115">
+              </a>
+            </div>
+
+            <div class="pay-method__item">
+              <a href="" class="pay-method__link">
+                <img src="./source/img/mc.png" alt="" class="pay-method__img" width="115">
+              </a>
+            </div>
+          </div>
+
+          <div class="pay-method__wrapper">
+            <div class="pay-method__item">
+              <a href="" class="pay-method__link">
+                <img src="./source/img/yam.png" alt="" class="pay-method__img" width="115">
+              </a>
+            </div>
+
+
+            <div class="pay-method__item">
+              <a href="" class="pay-method__link">
+                <img src="./source/img/wm.png" alt="" class="pay-method__img" width="115">
+              </a>
+            </div>
+          </div>
+
+          <!-- <ul class="pay-method__list">
+          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--visa"></a>v</li>
+          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--mastercard"></a>m</li>
+          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--yandex"></a>y</li>
+          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--webmoney"></a>w</li>
+        </ul> -->
+        </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="contanier">
+
+        <p class="subscribe__heading">Кого нам благодарить</p>
+
+        <form action="" class="subscribe-form">
+          <label for="sub_name">
+            <input class="subscribe-form__input" type="text" name="sub_name" id="sub_name" placeholder="Введите ваше имя">
+          </label>
+
+          <label for="sub_email">
+            <input class="subscribe-form__input" type="email" name="sub_email" id="sub_email" placeholder="Введите вашу почту">
+          </label>
+
+          <div class="button__wrapper">
+            <button type="submit" class="button subscribe-form__button">Пожертвовать</button>
+          </div>
+
+
+          <p class="subscribe-form__caption">
+            Помогая, я соглашаюсь с <a href="" class="link subscribe-form__link">Условиями пожертвований</a> и <a href=""
+              class="link subscribe-form__link">Политикой</a>
+          </p>
+        </form>
+        <div class="subscribe__caption">
+          <p class="subscribe__caption-text">Мы пришлём отчёт о получении сразу, как только перевод поступит на счёт сбора. Вы
+            сможете отменить привязку карты в любой момент</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+    <div class="contanier">
+      <p class="page-footer__heading">Международный фонд помощи животным</p>
+      <!-- Временный -->
+      <ul class="temporary">Временное меню:
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="report">Отчёт</a></li>
+        <li><a href="docs.html">Документы</a></li>
+        <li><a href="about-project.html">О проекте</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="catalog-common.html">Общий каталог</a></li>
+        <li><a href="catalog-finish.html">Завершенные</a></li>
+        <li><a href="#">Оставшиеся</a></li>
+        <li><a href=""></a></li>
+      </ul>
+      <!--  -->
+    </div>
+  </footer>
+
+</body>
+
+</html>
