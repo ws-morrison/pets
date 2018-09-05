@@ -74,32 +74,7 @@
 
     <section class="fix-donate">
       <div class="contanier">
-        <!-- <form action="" class="donation-form">
-          <label for="donation-500"><input class="donation-form__check" type="checkbox" id="donation-500">
-            <span class="donation-form__desc">Хватит на перевязочные материалы*</span>
-          </label>
 
-          <label for="donation-1000"><input class="donation-form__check" type="checkbox" id="donation-1000">
-            <span class="donation-form__desc">Хватит на анастезию*</span>
-          </label>
-
-          <label for="donation-2000">
-            <input class="donation-form__check" type="checkbox" id="donation-2000">
-            <span class="donation-form__desc">Минимальная цена стерилизации*</span>
-          </label>
-
-          <label for="donation-3000">
-            <input class="donation-form__check" type="checkbox" id="donation-3000">
-            <span class="donation-form__desc">Минимальная цена 2 дней передержки*</span>
-          </label>
-
-          <label for="donation-sum">
-            <input class="donation-form__check" type="number" id="donation-sum" placeholder="Любая сумма">
-          </label>
-          <div class="button__wrapper">
-            <button class="button donation__button"><a href="#" class="button__link">Пожертвовать</a></button>
-          </div>
-        </form> -->
         <p class="fix-donate__header">Сколько вы можете пожертвовать?</p>
         <div class="donation-item__wrapper">
           <div class="donation-item donation-item--active">
@@ -124,31 +99,89 @@
             <span class="donation-item__heading donation-item__heading--caption">Минимальная цена 2 дней передержки*</span>
           </div>
         </div>
+
+        <form action="" class="donation-form">
+          <div class="contanier">
+            <label for="any-donate">
+              <input class="donation-form__input" type="number" name="any-donate" id="any-donate" placeholder="Другая сумма">
+            </label>
+
+            <div class="button__wrapper">
+              <button type="submit" class="button donation-form__button">Пожертвовать</button>
+            </div>
+          </div>
+        </form>
         <p class="donation__caption">*Это бессрочный сбор. Все средства распределяются между организациями равными частями.
           Стоимость процедуры зависит от города, клиники и множества факторов, поэтому выше приведены средние цены</p>
       </div>
     </section>
 
-    <!-- <div class="aside">
-      <p class="aside__heading">Возможно, вы хотели бы знать:</p>
-      <ul class="aside__list">
-        <li class="aside__item"><a href="" class="aside__link">Стерилизация. Безусловное благо</a></li>
-        <li class="aside__item"><a href="" class="aside__link">Стерилизация — спасение от смерти</a></li>
-        <li class="aside__item"><a href="" class="aside__link">Правда и мифы о стерелизации</a></li>
-        <li class="aside__item"><a href="" class="aside__link">О пользе стерилизации собак и кошек</a></li>
-      </ul>
-    </div>
+    <section class="aside aside--bottom">
+      <div class="contanier">
+        <p class="aside__heading">Возможно, вы хотели бы знать:</p>
+        <ul class="aside__list">
+          <li class="aside__item"><a href="" class="link aside__link">Стерилизация. Безусловное благо</a></li>
+          <li class="aside__item"><a href="" class="link aside__link">Стерилизация — спасение от смерти</a></li>
+          <li class="aside__item"><a href="" class="link aside__link">Правда и мифы о стерелизации</a></li>
+          <li class="aside__item"><a href="" class="link aside__link">О пользе стерилизации собак и кошек</a></li>
+        </ul>
+      </div>
+    </section>
 
-        <div class="aside">
-          <p class="aside__heading">Другие направления сборов:</p>
-          <ul class="aside__list">
-            <li class="aside__item"><a href="" class="aside__link">Лечение</a></li>
-            <li class="aside__item"><a href="" class="aside__link">Содержание</a></li>
-            <li class="aside__item"><a href="" class="aside__link">Помощь приюту</a></li>
-            <li class="aside__item"><a href="" class="aside__link">Ищут дом</a></li>
-            <li class="aside__item"><a href="" class="aside__link">Передержка</a></li>
-          </ul>
-        </div> -->
+    <section class="aside">
+      <div class="contanier">
+        <p class="aside__heading">Другие направления сборов:</p>
+        <ul class="aside__list">
+          <li class="aside__item"><a href="" class="link aside__link">Лечение</a></li>
+          <li class="aside__item"><a href="" class="link aside__link">Содержание</a></li>
+          <li class="aside__item"><a href="" class="link aside__link">Помощь приюту</a></li>
+          <li class="aside__item"><a href="" class="link aside__link">Ищут дом</a></li>
+          <li class="aside__item"><a href="" class="link aside__link">Передержка</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="help">
+      <div class="contanier">
+
+        <p class="help__heading item-thumb item-thumb--fire">Или поспешите туда, где помощь нужна <a href="#" class="help__link help__link--highlighted">
+            срочно
+          </a>
+        </p>
+        <p class="help__caption">Вы успеете помочь!</p>
+        <div class="help__wrapper">
+          <div class="item-state">
+            <img src="./source/img/help-img.jpg" alt="" class="help__image" width="280" height="205">
+            <span class="item-state__text item-thumb item-thumb--emergency">Осталось <span class="item-state__counter">3
+                дня
+              </span></span>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar" style="width: 41%">
+            </div>
+          </div>
+
+          <p class="progress-desc"><b class="progress-desc progress-desc--bold">Собрано <span class="progress-desc__counter">410
+                000 руб.</span></b> из 1 000 000 руб.</p>
+        </div>
+
+        <div class="button__wrapper">
+          <button class="button help__button"><a href="#" class="button__link">Помочь Джесси!</a></button>
+        </div>
+
+        <div class="main-item">
+          <h3 class="main-item__heading">Помогите Джесси узнавать мир не только по запаху: она не видит с рождения</h3>
+          <p class="main-item__desc">Джесси попала к нам 2-недельным щенком, ее бросили на дороге. Нeсмотря на это она была
+            жизнерадостной, играла с врачами, но... не видела их. Сейчас Джейси полгода, ей срочно нужна операция, иначе
+            она навсегда потеряет возможность видеть.
+          </p>
+          <a href="#" class="link main-item__link main-item__link--more">Показать все срочные сборы →
+
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="page-footer">

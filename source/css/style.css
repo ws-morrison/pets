@@ -861,6 +861,7 @@ img {
   border-radius: 50px;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#3991ae), to(#3cced0));
   background-image: linear-gradient(0deg, #3991ae 0%, #3cced0 100%);
+  color: white;
   border-bottom: solid 3px #1c7fa0; }
 
 .button__wrapper {
@@ -1317,6 +1318,9 @@ img {
   background: #3ab9c3;
   margin-bottom: 3px; }
 
+.fix-donate {
+  border-bottom: 1px solid #f2f2f2; }
+
 .fix-donate__header {
   font-size: 22px;
   font-weight: 700; }
@@ -1357,6 +1361,43 @@ img {
 
 .donation-item__heading--caption {
   font-size: 14px; }
+
+.donation__caption {
+  font-size: 14px;
+  color: #8f8f8f; }
+
+.donation-form {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding-top: 30px; }
+
+.donation-form__input {
+  width: 220px;
+  font-size: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px; }
+
+.donation-form__button {
+  margin-bottom: 30px; }
+
+.aside {
+  margin-bottom: 40px; }
+
+.aside--bottom {
+  border-bottom: 1px solid #f2f2f2; }
+
+.aside__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px; }
+
+.aside__item {
+  margin-bottom: 10px; }
 
 .select {
   background-color: #3ab9c3;
