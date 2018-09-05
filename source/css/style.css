@@ -479,6 +479,9 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
+.temporary > li {
+  margin-right: 10px; }
+
 .item-thumb--hands::before {
   display: block;
   content: "";
@@ -1361,6 +1364,10 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.donate__desc {
+  font-size: 18px;
+  text-align: center; }
 
 .donate-slider__output {
   font-size: 52px;
