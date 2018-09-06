@@ -73,61 +73,85 @@
       </div>
     </section>
 
-
-    <section class="fix-donate">
+    <section class="donate">
       <div class="contanier">
+        <form action="" class="fix-donate">
+          <p class="fix-donate__heading"><b>Сколько вы сможете пожертвовать?</b></p>
 
-        <p class="fix-donate__header">Сколько вы можете пожертвовать?</p>
-        <div class="donation-item__wrapper">
-          <div class="donation-item donation-item--active">
-            <span class="donation-item__heading donation-item__heading--active">500 Р</span>
-            <span class="donation-item__heading donation-item__heading--caption donation-item__heading--active">Хватит на
-              перевязочные материалы*
-            </span>
+          <div class="fix-donate__button-group">
+
+            <div class="fix-donate__button">
+              <input class="fix-donate__radio" type="radio" id="fix-donate_500" name="fix-donate_radio" checked>
+              <label for="fix-donate_500">
+                <span class="fix-donate__button-text">
+                  500 P
+                </span>
+                <span class="fix-donate__button-caption">
+                  Хватит на перевязочные материалы*
+                </span>
+              </label></div>
+
+            <div class="fix-donate__button">
+              <input class="fix-donate__radio" type="radio" id="fix-donate_1000" name="fix-donate_radio">
+              <label for="fix-donate_1000">
+                <span class="fix-donate__button-text">
+                  1000 P
+                </span>
+                <span class="fix-donate__button-caption">
+                  Хватит на анастезию*
+                </span>
+              </label></div>
+
+            <div class="fix-donate__button">
+              <input class="fix-donate__radio" type="radio" id="fix-donate_2000" name="fix-donate_radio">
+              <label for="fix-donate_2000">
+                <span class="fix-donate__button-text">
+                  2000 P
+                </span>
+                <span class="fix-donate__button-caption">
+                  Минимальная цена стерилизации*
+                </span>
+              </label></div>
+
+            <div class="fix-donate__button">
+              <input class="fix-donate__radio" type="radio" id="fix-donate_3000" name="fix-donate_radio">
+              <label for="fix-donate_3000">
+                <span class="fix-donate__button-text">
+                  3000 P
+                </span>
+                <span class="fix-donate__button-caption">
+                  Минимальная цена 2 дней передержки*
+                </span>
+              </label></div>
+
           </div>
 
-          <div class="donation-item">
-            <span class="donation-item__heading">1000 Р</span>
-            <span class="donation-item__heading donation-item__heading--caption">Хватит на анастезию*</span>
-          </div>
-
-          <div class="donation-item">
-            <span class="donation-item__heading">2000 Р</span>
-            <span class="donation-item__heading donation-item__heading--caption">Минимальная цена стерилизации*</span>
-          </div>
-
-          <div class="donation-item">
-            <span class="donation-item__heading">3000 Р</span>
-            <span class="donation-item__heading donation-item__heading--caption">Минимальная цена 2 дней передержки*</span>
-          </div>
-        </div>
-
-        <form action="" class="donation-form">
-          <div class="contanier">
-            <label for="any-donate">
-              <input class="donation-form__input" type="number" name="any-donate" id="any-donate" placeholder="Другая сумма">
+          <div class="any-donate">
+            <label for="any_number">
+              <input class="fix-donate__input" type="number" name="sub" id="any_number" placeholder="Другая сумма">
             </label>
-
             <div class="button__wrapper">
-              <button type="submit" class="button donation-form__button">Пожертвовать</button>
+              <button type="submit" class="button subscribe-form__button">Пожертвовать</button>
             </div>
           </div>
+          <p class="fix-donate__caption-text">*Это бессрочный сбор. Все средства распределяются между организациями равными
+            частями. Стоимость процедуры зависит от города, клиники и множества факторов, поэтому выше приведены средние
+            цены</p>
         </form>
-        <p class="donation__caption">*Это бессрочный сбор. Все средства распределяются между организациями равными частями.
-          Стоимость процедуры зависит от города, клиники и множества факторов, поэтому выше приведены средние цены</p>
       </div>
     </section>
+
 
     <section class="aside">
       <div class="contanier">
         <div class="aside__post-list aside--bottom">
-        <p class="aside__heading">Возможно, вы хотели бы знать:</p>
-        <ul class="aside__list">
-          <li class="aside__item"><a href="" class="link aside__link">Стерилизация. Безусловное благо</a></li>
-          <li class="aside__item"><a href="" class="link aside__link">Стерилизация — спасение от смерти</a></li>
-          <li class="aside__item"><a href="" class="link aside__link">Правда и мифы о стерелизации</a></li>
-          <li class="aside__item"><a href="" class="link aside__link">О пользе стерилизации собак и кошек</a></li>
-        </ul>
+          <p class="aside__heading">Возможно, вы хотели бы знать:</p>
+          <ul class="aside__list">
+            <li class="aside__item"><a href="" class="link aside__link">Стерилизация. Безусловное благо</a></li>
+            <li class="aside__item"><a href="" class="link aside__link">Стерилизация — спасение от смерти</a></li>
+            <li class="aside__item"><a href="" class="link aside__link">Правда и мифы о стерелизации</a></li>
+            <li class="aside__item"><a href="" class="link aside__link">О пользе стерилизации собак и кошек</a></li>
+          </ul>
         </div>
 
         <div class="aside__post-list">
