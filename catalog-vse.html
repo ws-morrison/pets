@@ -59,107 +59,77 @@
               всем
             </b></p>
           <p class="donate__desc">Ваше пожертвование пополнит общий фонд и позже будет распределено между всеми участниками
-            проекта</p>
+            проекта
+          </p>
           <span class="donate-slider__output">500 Р</span>
-          <!-- <div class="donate-slider">
-            <input class="donate-slider__range" type="range" value="100" min="0" max="5000">
-          </div> -->
 
-          <!-- <label for="one-time">
-            <input type="radio" id="donate-one-time" checked> Разово
-          </label>
-          <label for="donate-month">
-            <input type="radio" id="donate-month"> Ежемесячно
-          </label> -->
 
-          <div class="donate-form__button-wrapper">
-            <div class="donate-form__button donate-form__button--active">
-              <span class="donate-form__button__heading donate-form__button__heading--active">Разово</span>
-
-            </div>
+          <div class="donate-form__button-group">
+            <div class="donate-form__button">
+              <input class="donate-form__radio" type="radio" id="check_once" name="donate_radio" checked>
+              <label for="check_once" class="donate-form__button">Разово</label></div>
 
             <div class="donate-form__button">
-              <span class="donate-form__button__heading">Ежемесячно</span>
-            </div>
-          </div>
-
-        </form>
-      </div>
-    </section>
-
-
-    <section class="pay-method">
-      <div class="contanier">
-        <p class="pay-method__heading">Выберите способ оплаты</p>
-        <div class="pay-method__list">
-
-          <div class="pay-method__wrapper">
-            <div class="pay-method__item">
-              <a href="" class="pay-method__link">
-                <img src="./source/img/visa.png" alt="" class="pay-method__img" width="115">
-              </a>
-            </div>
-
-            <div class="pay-method__item">
-              <a href="" class="pay-method__link">
-                <img src="./source/img/mc.png" alt="" class="pay-method__img" width="115">
-              </a>
-            </div>
-          </div>
-
-          <div class="pay-method__wrapper">
-            <div class="pay-method__item">
-              <a href="" class="pay-method__link">
-                <img src="./source/img/yam.png" alt="" class="pay-method__img" width="115">
-              </a>
-            </div>
-
-
-            <div class="pay-method__item">
-              <a href="" class="pay-method__link">
-                <img src="./source/img/wm.png" alt="" class="pay-method__img" width="115">
-              </a>
-            </div>
-          </div>
-
-          <!-- <ul class="pay-method__list">
-          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--visa"></a>v</li>
-          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--mastercard"></a>m</li>
-          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--yandex"></a>y</li>
-          <li class="pay-method__item"><a href="" class="pay-method__link pay-method__link--webmoney"></a>w</li>
-        </ul> -->
-        </div>
-    </section>
-
-    <section class="subscribe">
-      <div class="contanier">
-
-        <p class="subscribe__heading">Кого нам благодарить</p>
-
-        <form action="" class="subscribe-form">
-          <label for="sub_name">
-            <input class="subscribe-form__input" type="text" name="sub_name" id="sub_name" placeholder="Введите ваше имя">
-          </label>
-
-          <label for="sub_email">
-            <input class="subscribe-form__input" type="email" name="sub_email" id="sub_email" placeholder="Введите вашу почту">
-          </label>
-
-          <div class="button__wrapper">
-            <button type="submit" class="button subscribe-form__button">Пожертвовать</button>
+              <input class="donate-form__radio" type="radio" id="check_month" name="donate_radio">
+              <label for="check_month" class="donate-form__button">Ежемесячно</label></div>
           </div>
 
 
-          <p class="subscribe-form__caption">
-            Помогая, я соглашаюсь с <a href="" class="link subscribe-form__link">Условиями пожертвований</a> и <a href=""
-              class="link subscribe-form__link">Политикой</a>
-          </p>
+          <div class="pay-method">
+            <p class="pay-method__heading">Выберите способ оплаты</p>
+
+            <div class="pay-method__list">
+              <div class="pay-method__item pay-method__item--visa">
+                <input type="radio" name="pay-method_radio" id="radio_visa">
+                <label for="radio_visa">
+                </label>
+              </div>
+              <div class="pay-method__item pay-method__item--mc">
+                <input type="radio" name="pay-method_radio" id="radio_mc">
+                <label for="radio_mc">
+                </label>
+              </div>
+
+              <div class="pay-method__item pay-method__item--yam">
+                <input type="radio" name="pay-method_radio" id="radio_yam">
+                <label for="radio_yam">
+                </label>
+              </div>
+              <div class="pay-method__item pay-method__item--wm">
+                <input type="radio" name="pay-method_radio" id="radio_wm">
+                <label for="radio_wm">
+                </label>
+              </div>
+
+
+            </div>
+          </div>
+
+          <p class="subscribe__heading">Кого нам благодарить</p>
+
+          <div class="subscribe-form">
+            <label for="sub_name">
+              <input class="subscribe-form__input" type="text" name="sub" id="sub_name" placeholder="Введите ваше имя">
+            </label>
+
+            <label for="sub_email">
+              <input class="subscribe-form__input" type="email" name="sub" id="sub_email" placeholder="Введите вашу почту">
+            </label>
+
+            <div class="button__wrapper">
+              <button type="submit" class="button subscribe-form__button">Пожертвовать</button>
+            </div>
+
+            <p class="subscribe-form__caption">
+              Помогая, я соглашаюсь с <a href="" class="link subscribe-form__link">Условиями пожертвований</a> и <a href=""
+                class="link subscribe-form__link">Политикой</a>
+            </p>
         </form>
         <div class="subscribe__caption">
           <p class="subscribe__caption-text">Мы пришлём отчёт о получении сразу, как только перевод поступит на счёт сбора.
             Вы сможете отменить привязку карты в любой момент</p>
         </div>
-      </div>
+        </div>
     </section>
 
   </main>
@@ -177,7 +147,7 @@
         <li><a href="catalog-common.html">Общий каталог</a></li>
         <li><a href="catalog-finish.html">Завершенные</a></li>
         <li><a href="catalog-remain.html">Оставшиеся</a></li>
-        <li><a href="#"></a></li>
+        <li><a href="catalog-vse.html">Все</a></li>
       </ul>
       <!--  -->
     </div>
