@@ -1,6 +1,7 @@
 .nav-list__wrapper {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 30px;
@@ -17,11 +18,11 @@
 .nav-list__text--left-align {
   padding: 0;
   margin: 0;
-  text-align: left
+  text-align: left;
 }
 
 .nav-list__text--caption {
- font-size: 18px;
+  font-size: 18px;
 }
 
 .nav-list__link {
@@ -64,12 +65,16 @@
 
 @media (min-width: 768px) {
   .nav-list__wrapper {
-    padding: 0 100px;
+    justify-content: space-evenly;
   }
 }
 
 @media (min-width: 1024px) {
   .nav-list__wrapper {
-    padding: 0 200px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-list__button {
+    margin-right: 30px;
   }
 }

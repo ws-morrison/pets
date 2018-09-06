@@ -43,3 +43,15 @@
   color: rgb(143, 143, 143);
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .subscribe-form {
+    width: 727px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subscribe-form {
+    width: 727px;
+  }
+}

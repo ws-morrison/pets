@@ -10,7 +10,7 @@
 }
 .dropdown-list__heading {
   background-color: rgb(244, 244, 244);
-  width: 300px;
+  width: 280px;
   height: 58px;
   display: flex;
   justify-content: space-between;
@@ -68,22 +68,6 @@
   top: 30px;
 }
 
-// .docs__item::before {
-//   content: "";
-//   position: relative;
-//   right: 60px;
-//   top: 35px;
-//   background-image: url("../img/doc-thumb.png");
-//   width: 27px;
-//   height: 28px;
-//   background-repeat: no-repeat;
-// }
-
-// .docs__item-link::before {
-//   right: 120px;
-//   top: 30px;
-// }
-
 .docs-item__text {
   font-size: 15px;
   font-family: "Effra", "Arial", sans-serif;
@@ -101,4 +85,13 @@
 .docs-item__size {
   font-size: 13px;
   color: rgb(117, 117, 117);
+}
+
+@media (min-width: 1024px) {
+  .docs__text-wide-wrapper {
+  }
+
+  .dropdown-list__heading {
+
+  }
 }
