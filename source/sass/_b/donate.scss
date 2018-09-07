@@ -53,6 +53,10 @@
   margin: 0 auto;
 
 }
+.fix-donate__heading {
+  font-family: "Effra-Medium";
+  font-size: 22px;
+}
 .fix-donate__button-group {
   width: 100%;
   display: flex;
@@ -88,6 +92,7 @@
 }
 
 .fix-donate__button-caption {
+  width: 75%;
   font-size: 14px;
   padding-left: 20px;
 }
@@ -116,6 +121,7 @@
 }
 
 .fix-donate__caption-text {
+  width: 90%;
   font-size: 14px;
   color: rgb(143, 143, 143);
   text-align: center;

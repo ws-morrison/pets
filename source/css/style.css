@@ -378,8 +378,14 @@ th {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Effra-Bold';
-  src: url("../fonts/Effra-Bold.woff2") format("woff2"), url("../fonts/Effra-Bold.woff") format("woff"), url("../fonts/Effra-Bold.ttf") format("truetype");
+  font-family: 'Effra-Medium';
+  src: url("../fonts/Effra-Medium.woff2") format("woff2"), url("../fonts/Effra-Medium.woff") format("woff"), url("../fonts/Effra-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Effra-Light';
+  src: url("../fonts/Effra-Light.woff2") format("woff2"), url("../fonts/Effra-Light.woff") format("woff"), url("../fonts/Effra-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -392,6 +398,10 @@ a {
 img {
   max-width: 100%;
   height: auto; }
+
+ul {
+  padding: 0;
+  margin: 0; }
 
 .page-body {
   font-family: "Effra", "Arial", sans-serif; }
@@ -597,6 +607,9 @@ img {
   font-size: 26px;
   text-align: center; }
 
+.nav-list__text {
+  font-family: "Effra"; }
+
 .nav-list__caption {
   font-size: 18px; }
 
@@ -772,7 +785,8 @@ img {
   color: black; }
 
 .docs-item__desc {
-  font-size: 13px; }
+  font-size: 13px;
+  margin: 5px 0; }
 
 .docs-item__size {
   font-size: 13px;
@@ -780,7 +794,9 @@ img {
 
 .props__heading {
   font-size: 15px;
+  font-family: "Effra-Medium";
   text-transform: uppercase;
+  letter-spacing: 2px;
   padding-bottom: 15px;
   border-bottom: 1px solid #f2f2f2; }
 
@@ -814,7 +830,7 @@ img {
       flex-wrap: nowrap; }
 
 .header-content__title {
-  font-size: 27px;
+  font-size: 30px;
   font-family: "Effra", sans-serif;
   color: white;
   margin: 0;
@@ -896,6 +912,7 @@ img {
   border: solid 3px #3ab9c3; }
 
 .more-button__link {
+  font-family: "Effra-Medium";
   font-size: 18px;
   color: #3ab9c3;
   text-align: center; }
@@ -913,7 +930,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 42px;
   margin-bottom: 30px; }
 
 .help--line {
@@ -966,6 +982,17 @@ img {
       -ms-flex-align: center;
           align-items: center; }
 
+.help-post__heading {
+  font-family: 'Effra-Medium';
+  font-size: 26px; }
+
+.help-post__heading--small {
+  font-size: 20px; }
+
+.help-post__desc {
+  font-family: 'Effra';
+  font-size: 16px; }
+
 .item-state__text {
   margin: 0 auto;
   position: relative;
@@ -1002,6 +1029,9 @@ img {
   background-repeat: repeat-x;
   border-radius: 15px;
   background-image: url("../img/progress-bg-green.png"); }
+
+.progress-desc {
+  font-size: 16px; }
 
 .catalog-item__heading {
   font-size: 22px;
@@ -1106,6 +1136,12 @@ img {
 .extra-info__heading {
   text-align: center; }
 
+.extra-info__heading--left {
+  text-align: left; }
+
+.extra-info__video {
+  margin-bottom: 50px; }
+
 .extra-info__text {
   font-size: 26px;
   font-family: "Effra", "Arial", sans-serif;
@@ -1120,7 +1156,7 @@ img {
 
 .extra-info__item-counter {
   font-size: 16px;
-  font-family: "Effra", "Arial", sans-serif;
+  font-family: "Effra-Medium";
   color: black;
   margin-bottom: 5px;
   margin-top: 5px; }
@@ -1163,7 +1199,9 @@ img {
 .extra-info__text--highlighted {
   display: inline-block;
   position: relative;
-  z-index: 100; }
+  z-index: 100;
+  font-family: "Effra-Medium";
+  font-weight: 700; }
 
 .extra-info__text--highlighted::before {
   content: "";
@@ -1182,21 +1220,20 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.about__list {
-  padding: 0;
-  margin: 0; }
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 .about-list__heading {
   font-size: 18px;
   font-weight: 700; }
 
 .about-list__item {
+  width: 75%;
   font-size: 16px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  list-style-image: url("../img/blue-square.svg");
+  list-style-position: outside; }
 
 .features {
   padding-bottom: 50px;
@@ -1226,10 +1263,8 @@ img {
           align-items: center;
   width: 140px; }
 
-.features-item__text {
-  font-size: 15px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: black; }
+.features__caption {
+  font-size: 15px; }
 
 .stats {
   padding-bottom: 40px;
@@ -1307,7 +1342,7 @@ img {
   font-weight: 700; }
 
 .post__excerpt {
-  font-size: 16px;
+  font-size: 17px;
   font-family: "Effra", "Arial", sans-serif; }
 
 .post__excerpt--align-left {
@@ -1318,6 +1353,10 @@ img {
 
 .post__text--align-left {
   text-align: left; }
+
+.post__img {
+  margin-top: 35px;
+  margin-bottom: 40px; }
 
 .burger {
   width: 16px; }
@@ -1447,6 +1486,10 @@ img {
           flex-direction: column;
   margin: 0 auto; }
 
+.fix-donate__heading {
+  font-family: "Effra-Medium";
+  font-size: 22px; }
+
 .fix-donate__button-group {
   width: 100%;
   display: -webkit-box;
@@ -1493,6 +1536,7 @@ img {
   padding-left: 20px; }
 
 .fix-donate__button-caption {
+  width: 75%;
   font-size: 14px;
   padding-left: 20px; }
 
@@ -1516,6 +1560,7 @@ img {
   border-radius: 3px; }
 
 .fix-donate__caption-text {
+  width: 90%;
   font-size: 14px;
   color: #8f8f8f;
   text-align: center; }
@@ -1539,7 +1584,8 @@ img {
   text-align: center;
   background-color: #f4f4f4;
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  margin-bottom: 30px; }
 
 .subscribe-form__input {
   width: 75%;
@@ -1590,12 +1636,17 @@ img {
 .aside__item {
   margin-bottom: 10px; }
 
+.aside__heading {
+  font-family: "Effra-Medium";
+  font-size: 22px; }
+
 .select {
   background-color: #3ab9c3;
   color: white;
   width: 280px;
   height: 58px;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   padding-left: 20px;
   border: none;

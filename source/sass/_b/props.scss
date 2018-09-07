@@ -1,8 +1,11 @@
 .props__heading {
   font-size: 15px;
+  font-family: "Effra-Medium";
   text-transform: uppercase;
+  letter-spacing: 2px;
+
   padding-bottom: 15px;
-    border-bottom: 1px solid rgb(242, 242, 242);
+  border-bottom: 1px solid rgb(242, 242, 242);
 }
 
 .props__heading--bold {
