@@ -8,6 +8,10 @@
   <!-- Отключает отображение цифр как ссылку на номер телефона -->
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="./source/css/style.css">
+
+  <!-- Owl -->
+  <link rel="stylesheet" href="./source/css/owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="./source/css/owlcarousel/owl.theme.default.css">
   <title>Pets</title>
 </head>
 
@@ -38,7 +42,7 @@
           <div class="nav-list__button">
             <a href="#" class="nav-list__link">Отчёты</a></div>
         </div>
-        <p class="nav-list__text">Мы помогаем тем, кто действительно беззащитен: <b class="nav-list__text--bold">животным</p>
+        <p class="nav-list__text">Мы помогаем тем, кто действительно беззащитен: <b class="nav-list__text--bold">животным></b></p>
       </nav>
 
     </div>
@@ -53,7 +57,7 @@
             <img class="extra-info__video" src="./source/img/video-img.jpg" alt="">
             <p class="extra-info__text extra-info__text--small">Мы создали проект, с которым</p>
             <p class="extra-info__text">вы сможете легко и быстро <b class="extra-info__text extra-info__text--highlighted">помочь
-            </b> животным</p>
+              </b> животным</p>
           </div>
           <div class="about-list__wrapper">
             <p class="about-list__heading">У вас много вариантов:</p>
@@ -134,7 +138,7 @@
           Сейчас в команде проекта всего 10 человек, но мы уже смогли многое!
         </p>
 
-        <div class="slider">
+        <!-- <div class="slider">
           <div class="contanier">
             <img src="https://via.placeholder.com/280x200" alt="" class="slider__image">
             <p class="slider__heading">Иванов Андрей</p>
@@ -142,8 +146,38 @@
             <p class="slider__text">Домашние животные: 2 кота и собака, спасённые с улицы</p>
             <div class="slider__navigation"></div>
           </div>
-        </div>
+        </div> -->
 
+        <!-- <div class="owl-slider">
+  <img src="/source/img/volunteer-0.jpg" alt="" class="slider__image">
+  <p class="slider__heading">Иванов Андрей</p>
+  <span class="slider__caption">Волонтёр</span>
+  <p class="slider__text">Домашние животные: 2 кота и собака, спасённые с улицы</p>
+</div> -->
+
+        <!-- Set up your HTML -->
+        <div class="owl-carousel owl-theme loop">
+          <div class="owl-slide">
+            <img src="/source/img/volunteer-0.jpg" alt="" class="slider__image" width="280">
+            <p class="slider__heading">Иванов Андрей</p>
+            <span class="slider__caption">Волонтёр</span>
+            <p class="slider__text">Домашние животные: 2 кота и собака, спасённые с улицы</p>
+          </div>
+
+          <div class="owl-slide">
+            <img src="/source/img/help-img-3.jpg" alt="" class="slider__image" width="280">
+            <p class="slider__heading">Иванов Андрей</p>
+            <span class="slider__caption">Волонтёр</span>
+            <p class="slider__text">Домашние животные: 2 кота и собака, спасённые с улицы</p>
+          </div>
+
+          <div class="owl-slide">
+            <img src="/source/img/help-img-1.jpg" alt="" class="slider__image" width="280">
+            <p class="slider__heading">Иванов Андрей</p>
+            <span class="slider__caption">Волонтёр</span>
+            <p class="slider__text">Домашние животные: 2 кота и собака, спасённые с улицы</p>
+          </div>
+        </div>
         <h3 class="post__heading">Мы за <b class="post__heading post__heading--bold">прозрачность</b></h3>
         <p class="post__text post__text--align-left">
           Наш основной проект называется «Правжизнь». В 2013 году мы создали агрегатор пожертвований для сборов в пользу православных
@@ -213,6 +247,10 @@
     </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="/source/js/owlcarousel/owl.carousel.min.js"></script>
+  <script src="/source/js/main.js"></script>
 </body>
 
 </html>

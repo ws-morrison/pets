@@ -1366,6 +1366,19 @@ ul {
   background: #3ab9c3;
   margin-bottom: 3px; }
 
+.slider__heading {
+  font-family: "Effra-Medium";
+  font-size: 18px; }
+
+.slider__caption {
+  font-family: "Effra";
+  font-size: 15px;
+  color: #757575; }
+
+.slider__caption {
+  font-family: "Effra";
+  font-size: 16px; }
+
 .pay-method__heading {
   font-size: 20px;
   text-align: center;
@@ -1699,7 +1712,8 @@ ul {
   background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 40px; }
 
 .page-header__title {
   font-size: 15px;
