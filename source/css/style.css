@@ -372,31 +372,7 @@ th {
   padding: 0; }
 
 @font-face {
-  font-family: 'Effra-Heavy';
-  src: url("../fonts/Effra-Heavy.woff2") format("woff2"), url("../fonts/Effra-Heavy.woff") format("woff"), url("Effra-Heavy.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-LightItalic';
-  src: url("../fonts/Effra-LightItalic.woff2") format("woff2"), url("../fonts/Effra-LightItalic.woff") format("woff"), url("../fonts/Effra-LightItalic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-BoldItalic';
-  src: url("../fonts/Effra-BoldItalic.woff2") format("woff2"), url("../fonts/Effra-BoldItalic.woff") format("woff"), url("../fonts/Effra-BoldItalic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-MediumItalic';
-  src: url("../fonts/Effra-MediumItalic.woff2") format("woff2"), url("../fonts/Effra-MediumItalic.woff") format("woff"), url("../fonts/Effra-MediumItalic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-Regular';
+  font-family: 'Effra';
   src: url("../fonts/Effra-Regular.woff2") format("woff2"), url("../fonts/Effra-Regular.woff") format("woff"), url("../fonts/Effra-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
@@ -404,30 +380,6 @@ th {
 @font-face {
   font-family: 'Effra-Bold';
   src: url("../fonts/Effra-Bold.woff2") format("woff2"), url("../fonts/Effra-Bold.woff") format("woff"), url("../fonts/Effra-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-HeavyItalic';
-  src: url("../fonts/Effra-HeavyItalic.woff2") format("woff2"), url("../fonts/Effra-HeavyItalic.woff") format("woff"), url("../fonts/Effra-HeavyItalic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-Medium';
-  src: url("../fonts/Effra-Medium.woff2") format("woff2"), url("../fonts/Effra-Medium.woff") format("woff"), url("../fonts/Effra-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-Light';
-  src: url("../fonts/Effra-Light.woff2") format("woff2"), url("../fonts/Effra-Light.woff") format("woff"), url("../fonts/Effra-Light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Effra-Italic';
-  src: url("../fonts/Effra-Italic.woff2") format("woff2"), url("../fonts/Effra-Italic.woff") format("woff"), url("../fonts/Effra-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -510,6 +462,49 @@ img {
   background-repeat: no-repeat;
   margin: 0 auto;
   bottom: -13px;
+  left: -6px; }
+
+.item-thumb--popular::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/star.svg");
+  width: 16px;
+  height: 22px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  bottom: -2px;
+  left: -6px; }
+
+.item-thumb--nearby::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/nearby.svg");
+  width: 16px;
+  height: 22px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  bottom: -2px;
+  left: -6px; }
+
+.help-post__link--more::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/arrow.svg");
+  width: 15px;
+  height: 10px;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-top: 5px; }
+
+.item-thumb--recently::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/rocket.svg");
+  width: 16px;
+  height: 22px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  bottom: -2px;
   left: -6px; }
 
 .item-thumb--month::before {
@@ -1442,6 +1437,16 @@ img {
   background-color: #3ab9c3;
   color: white; }
 
+.fix-donate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto; }
+
 .fix-donate__button-group {
   width: 100%;
   display: -webkit-box;
@@ -1507,12 +1512,19 @@ img {
   background-color: #f4f4f4;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin: 0 auto;
   border-radius: 3px; }
 
 .fix-donate__caption-text {
   font-size: 14px;
   color: #8f8f8f;
   text-align: center; }
+
+@media (min-width: 1024px) {
+  .fix-donate {
+    width: 768px; }
+  .any-donate {
+    width: 718px; } }
 
 .subscribe {
   border-bottom: 1px solid #f2f2f2; }

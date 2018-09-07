@@ -32,6 +32,53 @@
   left: -6px;
 }
 
+.item-thumb--popular::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/star.svg");
+  width: 16px;
+  height: 22px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  bottom: -2px;
+  left: -6px;
+}
+
+.item-thumb--nearby::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/nearby.svg");
+  width: 16px;
+  height: 22px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  bottom: -2px;
+  left: -6px;
+}
+
+.help-post__link--more::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/arrow.svg");
+  width: 15px;
+  height: 10px;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.item-thumb--recently::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/rocket.svg");
+  width: 16px;
+  height: 22px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  bottom: -2px;
+  left: -6px;
+}
+
 .item-thumb--month::before {
   content: "";
   display: block;
