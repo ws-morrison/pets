@@ -8,6 +8,8 @@
   <!-- Отключает отображение цифр как ссылку на номер телефона -->
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="./source/css/style.css">
+  <!-- RangeSlider -->
+  <link rel="stylesheet" href="/source/css/rangeslider.js-2.3.0/rangeslider.css">
   <title>Pets</title>
 </head>
 
@@ -61,7 +63,17 @@
           <p class="donate__desc">Ваше пожертвование пополнит общий фонд и позже будет распределено между всеми участниками
             проекта
           </p>
+
           <span class="donate-slider__output">500 Р</span>
+
+
+            <input type="range" min="10" max="1000" step="10" value="300" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;">
+            <div class="rangeslider rangeslider--horizontal" id="js-rangeslider-0">
+              <div class="rangeslider__fill" style="width: 50%"></div>
+              <div class="rangeslider__handle" style="left: 49%"></div>
+            </div>
+
+
 
           <div class="donate-form__button-group">
             <div class="donate-form__button">
@@ -155,7 +167,9 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-  <script src="/source/js/main.js"></script>
+  <!-- <script src="/source/js/rangeslider.js-2.3.0/rangeslider.min.js"></script> -->
+  <!-- <script src="/source/js/rangeslider.js-2.3.0/donate-slider.js"></script> -->
+
 </body>
 
 </html>
