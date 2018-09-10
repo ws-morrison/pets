@@ -5,9 +5,16 @@
 .dropdown-list-wrapper {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  //flex-wrap: wrap;
+  //justify-content: space-evenly;
 }
+
+//.dropdown-list__item {
+//  width: 100%;
+//}
+
 .dropdown-list__heading {
   background-color: rgb(244, 244, 244);
   width: 280px;
