@@ -9,6 +9,8 @@
   <!-- Отключает отображение цифр как ссылку на номер телефона -->
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="./source/css/style.css">
+  <!-- RangeSlider -->
+  <link rel="stylesheet" href="/source/css/rangeslider.js-2.3.0/rangeslider.css">
   <title>Pets</title>
 </head>
 
@@ -162,6 +164,14 @@
             проекта
           </p> -->
           <span class="donate-slider__output">500 Р</span>
+
+          <!-- rangeSlider -->
+          <input type="range" min="10" max="1000" step="10" value="300" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;">
+          <div class="rangeslider rangeslider--horizontal" id="js-rangeslider-0">
+            <div class="rangeslider__fill" style="width: 50%"></div>
+            <div class="rangeslider__handle" style="left: 49%"></div>
+          </div>
+          <!-- end of rangeSlider -->
 
           <div class="donate-form__button-group">
             <div class="donate-form__button">
