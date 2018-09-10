@@ -419,6 +419,11 @@ ul {
   height: 1px;
   margin: -1px; }
 
+.hidden {
+  display: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
 .link {
   text-decoration: none;
   color: #3ab9c3; }
