@@ -628,13 +628,9 @@ select {
   font-size: 18px; }
 
 .nav-list__link {
-  color: black;
-  text-decoration: none; }
+  color: black; }
 
 .nav-list__button {
-  font-size: 15px; }
-
-.nav-list__button--active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -646,11 +642,14 @@ select {
           align-items: center;
   width: 90px;
   height: 40px;
+  padding: 0;
   border-radius: 50px;
-  background-color: #3ab9c3;
-  padding: 0; }
-  .nav-list__button--active .nav-list__link {
-    color: white; }
+  font-size: 15px; }
+  .nav-list__button--active {
+    background-color: #3ab9c3; }
+    .nav-list__button--active .nav-list__link {
+      color: white;
+      text-decoration: none; }
 
 .nav-list__button--active-emergency {
   display: -webkit-box;
