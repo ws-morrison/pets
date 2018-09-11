@@ -236,7 +236,23 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="/source/js/dropwdown/dropdown.js"></script>
+    <!-- <script src="/source/js/dropwdown/dropdown.js"></script> -->
+    <script>
+        $(document).ready(function () {
+
+            $(".docs__wrapper").addClass("visually-hidden");
+
+            $(".dropdown-list__item").each(function () {
+                $(this).on('click', function () {
+
+
+                    $(this).children('.dropdown-list__heading').toggleClass("dropdown-list__heading--active");
+
+                    $(this).children('.docs__wrapper').toggleClass("visually-hidden");
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
