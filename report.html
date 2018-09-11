@@ -236,31 +236,8 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <!-- <script src="/source/js/dropwdown/dropdown.js"></script> -->
-    <script>
-        $(document).ready(function () {
-
-            $(".docs__wrapper").addClass("visually-hidden");
-
-            $(".dropdown-list__item").each(function () {
-                $(this).on('click', function () {
-
-
-                    $(this).children('.dropdown-list__heading').toggleClass("dropdown-list__heading--active");
-                    $(this).find('.dropdown-list__heading-thumb').toggleClass("dropdown-list__heading-thumb--active");
-                    $(this).children('.docs__wrapper').toggleClass("visually-hidden");
-                });
-            });
-
-            // HERE
-            $(document).on('click', '.nav-list__button', function(evt) {
-                console.log('asd');
-                evt.preventDefault();
-                $('.nav-list__button').removeClass('nav-list__button--active');
-                $(this).addClass('nav-list__button--active');
-            })
-        });
-    </script>
+    <script src="./source/js/dropwdown/dropdown.js"></script>
+    <script src="./source/js/main.js"></script>
 </body>
 
 </html>
