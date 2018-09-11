@@ -672,18 +672,21 @@ select {
 
 @media (min-width: 768px) {
   .nav-list__wrapper {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly; } }
+    width: 50%;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 30px; } }
 
 @media (min-width: 1024px) {
   .nav-list__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
+    width: 50%;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 30px; }
   .nav-list__button {
     margin-right: 30px; } }
 
@@ -1403,9 +1406,7 @@ select {
   margin-bottom: 40px; }
 
 .burger {
-  width: 16px;
-  position: relative;
-  top: 6px; }
+  width: 16px; }
 
 .burger-item {
   height: 3px;
