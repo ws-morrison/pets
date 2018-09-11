@@ -118,8 +118,11 @@
     border-top-right-radius: 0;
 }
 .select2-search--dropdown {
-    display: block;
+    /* display: block; */
     padding: 4px;
+
+    /* custom */
+    display: none;
 }
 .select2-search--dropdown .select2-search__field {
     padding: 4px;
