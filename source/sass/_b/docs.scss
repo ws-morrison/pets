@@ -29,6 +29,22 @@
     transition: all 0.3s ease-in-out;
 }
 
+.dropdown-list__heading-thumb {
+    width: 11px;
+    height: 6px;
+    padding-right: 25px;
+    background-image: url("../img/select-arrow-black.svg");
+    background-repeat: no-repeat;
+}
+
+.dropdown-list__heading-thumb--active {
+    width: 11px;
+    height: 6px;
+    padding-right: 25px;
+    background-image: url("../img/select-arrow.svg");
+    background-repeat: no-repeat;
+}
+
 .dropdown-list__heading--active {
     color: rgb(255, 255, 255);
     background-color: rgb(58, 185, 195);
