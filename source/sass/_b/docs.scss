@@ -102,10 +102,14 @@
     margin-left: 20px;
 }
 
-@media (min-width: 1024px) {
-    .docs__text-wide-wrapper {
-    }
+@media (min-width: 768px) {
+ .dropdown-list-wrapper {
+     width: 456px;
+ }
+}
 
-    .dropdown-list__heading {
-    }
+@media (min-width: 1024px) {
+ .dropdown-list-wrapper {
+     width: 656px;
+ }
 }
