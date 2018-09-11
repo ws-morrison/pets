@@ -403,12 +403,6 @@ ul {
   padding: 0;
   margin: 0; }
 
-select {
-  -ms-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
-  -webkit-appearance: none; }
-
 .page-body {
   font-family: "Effra", "Arial", sans-serif; }
 

@@ -8,6 +8,7 @@
   <!-- Отключает отображение цифр как ссылку на номер телефона -->
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="./source/css/style.css">
+  <link rel="stylesheet" href="./source/css/select2/select2.min.css">
   <title>Pets</title>
 </head>
 
@@ -43,9 +44,11 @@
         </div>
         <p class="nav-list__caption">Выберите, в чем именно хотели бы помочь</p>
       </nav>
-      <select class="select" name="select-help" id="help_select">
-        <option value="all">2018</option>
-      </select>
+            <select class="select" name="select-help" id="help_select">
+                <option value="all">Все</option>
+                <option value="remain">Оставшиеся</option>
+                <option value="finished">Законченные</option>
+            </select>
     </div>
   </header>
 
@@ -181,5 +184,10 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-  <script src="/source/js/main.js"></script>
+  <script src="/source/js/select2/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select').select2();
+        });
+    </script>
 </body>
