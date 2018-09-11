@@ -1406,12 +1406,13 @@ select {
   margin-bottom: 40px; }
 
 .burger {
-  width: 16px; }
+  width: 18px;
+  height: 15px; }
 
 .burger-item {
   height: 3px;
   background: #3ab9c3;
-  margin-bottom: 3px; }
+  margin-bottom: 4px; }
 
 .slider__heading {
   font-family: "Effra-Medium";
