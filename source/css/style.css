@@ -973,7 +973,8 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
 .help--line {
   border-bottom: 1px solid #f2f2f2; }
@@ -1402,7 +1403,9 @@ select {
   margin-bottom: 40px; }
 
 .burger {
-  width: 16px; }
+  width: 16px;
+  position: relative;
+  top: 6px; }
 
 .burger-item {
   height: 3px;
@@ -1473,7 +1476,8 @@ select {
   border: 1px solid #3ab9c3; }
 
 .donate {
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  margin-top: 30px; }
 
 .donate__heading {
   font-size: 25px;
