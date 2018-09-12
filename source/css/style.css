@@ -435,9 +435,7 @@ select {
 
 @media (min-width: 1024px) {
   .contanier {
-    padding: 0 60px; }
-  .burger {
-    display: none; } }
+    padding: 0 60px; } }
 
 .item-thumb--hands::before {
   display: block;
@@ -601,9 +599,11 @@ select {
           justify-content: center;
   top: 110px;
   left: 0;
-  background-color: #fff; }
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
 
 .nav-menu__item {
+  margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #e3e3e3; }
 
