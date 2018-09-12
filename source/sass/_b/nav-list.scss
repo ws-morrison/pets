@@ -17,6 +17,7 @@
 }
 .nav-list__caption {
     font-size: 18px;
+    text-align: center;
 }
 
 .nav-list__text--left-align {
@@ -51,23 +52,14 @@
             color: rgb(255, 255, 255);
             text-decoration: none;
         }
-
     }
+    &--orange {
+        background-color: rgb(254, 122, 69);
 
-}
-
-.nav-list__button--active-emergency {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: rgb(254, 122, 69);
-    padding: 0;
-
-    .nav-list__link {
-        color: rgb(255, 255, 255);
+        .nav-list__link {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
     }
 }
 
