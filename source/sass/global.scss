@@ -1,4 +1,3 @@
-
 body {
     width: 100%;
 }
@@ -60,17 +59,9 @@ select {
 
 @media (min-width: 1024px) {
     .contanier {
-        padding: 0 80px;
+        padding: 0 60px;
     }
-}
-
-.temporary {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.temporary > li {
-    margin-right: 10px;
+    .burger {
+        display: none;
+    }
 }
