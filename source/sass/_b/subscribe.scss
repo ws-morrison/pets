@@ -1,58 +1,62 @@
 .subscribe {
-  border-bottom: 1px solid rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(242, 242, 242);
 }
 .subscribe__heading {
-  font-size: 20px;
-  text-align: center;
-  font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
 }
 .subscribe-form {
-  width: 100%;
-  text-align: center;
-  background-color: rgb(244, 244, 244);
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    // margin-bottom: 30px;
 }
 
 .subscribe-form__input {
-  width: 75%;
-  font-size: 17px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 25px;
-  margin-bottom: 20px;
+    width: 75%;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    margin-bottom: 20px;
 
-  border: none;
-  border-radius: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 .subscribe-form__button {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .subscribe-form__caption {
-  font-size: 14px;
-  text-align: center;
+    //   font-size: 14px;
+    //   text-align: center;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
 }
 .subscribe__caption {
-  margin-top: 30px;
-  margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 .subscribe__caption-text {
-  font-size: 14px;
-  color: rgb(143, 143, 143);
-  text-align: center;
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+    text-align: center;
 }
 
 @media (min-width: 768px) {
-  .subscribe-form {
-    width: 727px;
-  }
+    .subscribe-form {
+        width: 727px;
+    }
 }
 
 @media (min-width: 1024px) {
-  .subscribe-form {
-    width: 727px;
-  }
+    .subscribe-form {
+        width: 727px;
+    }
 }

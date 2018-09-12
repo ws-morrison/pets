@@ -8,9 +8,9 @@ $(document).ready(function() {
 
 
     // change nav-button orange background
-    $(document).on("click", ".nav-list__button", function (evt) {
+    $(document).on("click", ".nav-list__button--catalog", function (evt) {
         evt.preventDefault();
-        $(".nav-list__button").removeClass("nav-list__button--orange");
+        $(".nav-list__button--catalog").removeClass("nav-list__button--orange");
         $(this).addClass("nav-list__button--orange");
     });
     // burger
