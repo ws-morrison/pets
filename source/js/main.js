@@ -35,6 +35,7 @@ $(document).ready(function() {
         if ($(event.target).closest(".burger").length) return;
         $(".burger").removeClass("open");
         $(".nav-menu").addClass("visually-hidden");
+        $(".nav-menu--special").addClass("visually-hidden");
         event.stopPropagation();
     });
 });
