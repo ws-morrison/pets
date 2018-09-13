@@ -16,8 +16,8 @@ $(document).ready(function() {
     // burger
     // open/close menu
     $(".burger").on("click", function() {
-        console.log("Нажал на бургер");
         $(".nav-menu").toggleClass("visually-hidden");
+        $(".modal-overlay").removeClass("hidden");
     });
 
     // special for index
@@ -31,11 +31,12 @@ $(document).ready(function() {
     });
 
     // stopPropagation Burger menu
-    $(document).click(function(event) {
+    $(".modal-overlay").click(function(event) {
         if ($(event.target).closest(".burger").length) return;
         $(".burger").removeClass("open");
         $(".nav-menu").addClass("visually-hidden");
         $(".nav-menu--special").addClass("visually-hidden");
+        $(".modal-overlay").toggleClass("hidden");
         event.stopPropagation();
     });
 });

@@ -429,6 +429,17 @@ select {
   text-decoration: none;
   color: #3ab9c3; }
 
+.modal-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 102; }
+
+.hidden {
+  display: none; }
+
 @media (min-width: 768px) {
   .contanier {
     padding: 0 80px; } }
@@ -598,7 +609,7 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 100;
+  z-index: 103;
   top: 45px;
   right: 20px;
   background-color: #3ab9c3;
@@ -622,7 +633,7 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 100;
+  z-index: 103;
   top: 45px;
   left: 20px;
   background-color: #3ab9c3; }
@@ -1472,7 +1483,8 @@ select {
 
 .burger {
   width: 18px;
-  position: relative; }
+  position: relative;
+  z-index: 103; }
 
 .burger-item {
   height: 3px;
