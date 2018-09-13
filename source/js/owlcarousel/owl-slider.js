@@ -1,12 +1,12 @@
 "use strict";
 
-$(document).ready(function () {
-
+$(document).ready(function() {
     // OwlCarousel
     $(".post__slider").owlCarousel({
         items: 1,
         loop: true,
         margin: 10,
+        responsiveBaseWidth: ".post__slider",
         responsive: {
             600: {
                 items: 1
@@ -14,7 +14,6 @@ $(document).ready(function () {
         },
         nav: true
     });
-
 });
 
 // $(".loop").owlCarousel({
@@ -31,4 +30,3 @@ $(document).ready(function () {
 //   autoHeight: false,
 //   nav: true
 // });
-

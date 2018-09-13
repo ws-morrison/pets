@@ -666,7 +666,7 @@ select {
   .nav-menu {
     right: 0px; }
   .nav-menu--opened {
-    width: 768px;
+    width: 260px;
     -webkit-transition: all 0.1s linear;
     transition: all 0.1s linear; } }
 
@@ -682,7 +682,7 @@ select {
   .nav-menu--special {
     left: 0px; }
   .nav-menu--opened {
-    width: 768px;
+    width: 260px;
     -webkit-transition: all 0.1s linear;
     transition: all 0.1s linear; } }
 
@@ -939,6 +939,11 @@ select {
   .dropdown-list-wrapper {
     width: 656px; } }
 
+.props {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .props__heading {
   font-size: 15px;
   font-family: "Effra-Medium";
@@ -1134,15 +1139,35 @@ select {
           align-items: center; }
 
 .help-post__heading {
-  font-family: 'Effra-Medium';
+  font-family: "Effra-Medium";
   font-size: 26px; }
 
 .help-post__heading--small {
   font-size: 20px; }
 
 .help-post__desc {
-  font-family: 'Effra';
+  font-family: "Effra";
   font-size: 16px; }
+
+@media (min-width: 768px) {
+  .help-post {
+    width: 65%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* justify-content: center; */ } }
+
+@media (min-width: 1024px) {
+  .help-post {
+    width: 65%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* justify-content: center; */ } }
 
 .item-state__text {
   margin: 0 auto;
@@ -1504,8 +1529,28 @@ select {
   text-align: left; }
 
 .post__img {
-  margin-top: 35px;
-  margin-bottom: 40px; }
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+@media (min-width: 768px) {
+  .post__text--align-left {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* justify-content: center; */ } }
+
+@media (min-width: 1024px) {
+  .post__text--align-left {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* justify-content: center; */ } }
 
 .burger {
   width: 18px;
