@@ -700,7 +700,7 @@ select {
       -ms-flex-align: center;
           align-items: center;
   height: 40px;
-  padding: 0 15px;
+  padding: 0 7px;
   border-radius: 50px;
   font-size: 15px; }
   .nav-list__button--active {
@@ -725,7 +725,7 @@ select {
       -ms-flex-align: center;
           align-items: center;
   height: 40px;
-  padding: 0 15px;
+  padding: 0 7px;
   border-radius: 50px;
   font-size: 15px; }
   .nav-list__button--catalog--active {
