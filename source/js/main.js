@@ -29,6 +29,7 @@ $(document).ready(function() {
     $(".burger").click(function() {
         $(this).toggleClass("open");
         $(".nav-menu").toggleClass("nav-menu--opened");
+        $(".nav-menu--special").toggleClass("nav-menu--opened");
     });
 
     // stopPropagation Burger menu
