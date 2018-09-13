@@ -594,8 +594,7 @@ select {
 
 .nav-menu {
   position: absolute;
-  width: 100%;
-  overflow: scroll;
+  width: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -614,15 +613,12 @@ select {
   top: 45px;
   right: 0px;
   background-color: #3ab9c3;
-  -webkit-transition: 0.3s linear;
-  transition: 0.3s linear;
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
           box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
 
 .nav-menu--special {
   position: absolute;
-  width: 100%;
-  overflow: scroll;
+  width: 0;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -638,13 +634,16 @@ select {
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 103;
-  -webkit-transition: 0.3s linear;
-  transition: 0.3s linear;
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
           box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   top: 45px;
   left: 0px;
   background-color: #3ab9c3; }
+
+.nav-menu--opened {
+  width: 100%;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
 
 .nav-menu__item {
   margin-top: 10px;
@@ -657,23 +656,35 @@ select {
 
 @media (min-width: 768px) {
   .nav-menu {
+    right: 0px; }
+  .nav-menu--opened {
     width: 768px;
-    right: 0px; } }
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear; } }
 
 @media (min-width: 1024px) {
   .nav-menu {
+    right: 0px; }
+  .nav-menu--opened {
     width: 768px;
-    right: 0px; } }
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear; } }
 
 @media (min-width: 768px) {
   .nav-menu--special {
+    left: 0px; }
+  .nav-menu--opened {
     width: 768px;
-    left: 0px; } }
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear; } }
 
 @media (min-width: 1024px) {
   .nav-menu--special {
+    left: 0px; }
+  .nav-menu--opened {
     width: 768px;
-    left: 0px; } }
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear; } }
 
 .nav-list__wrapper {
   display: -webkit-box;

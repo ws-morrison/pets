@@ -28,6 +28,7 @@ $(document).ready(function() {
     // Burger animation
     $(".burger").click(function() {
         $(this).toggleClass("open");
+        $(".nav-menu").toggleClass("nav-menu--opened");
     });
 
     // stopPropagation Burger menu
@@ -35,6 +36,8 @@ $(document).ready(function() {
         if ($(event.target).closest(".burger").length) return;
         $(".burger").removeClass("open");
         $(".nav-menu").addClass("visually-hidden");
+        $(".nav-menu").removeClass("nav-menu--opened");
+        $(".nav-menu--special").removeClass("nav-menu--opened");
         $(".nav-menu--special").addClass("visually-hidden");
         $(".modal-overlay").toggleClass("hidden");
         event.stopPropagation();
