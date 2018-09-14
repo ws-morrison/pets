@@ -1,6 +1,6 @@
 "use strict";
 
-$(window).ready(function() {
+$(document).ready(function() {
 
     // OwlCarousel
     $(".post__slider").owlCarousel({
