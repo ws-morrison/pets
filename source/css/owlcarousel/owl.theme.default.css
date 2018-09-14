@@ -105,3 +105,9 @@
   font-size: 0px;
   background-image: url(../../img/slider-next.svg);
 }
+
+.slide-img {
+    width: 280px;
+    background-image: url("../../img/volunteer-0.jpg");
+    background-repeat: no-repeat;
+}
