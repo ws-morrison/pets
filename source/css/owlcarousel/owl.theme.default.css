@@ -72,10 +72,10 @@
   height: 6px;
 
 }
-/* .post__slider {
+.post__slider {
     max-width: 520px;
     margin: 0 auto;
-} */
+}
 
 .post__slider.owl-theme .owl-nav {
   position: relative;
@@ -106,8 +106,8 @@
   background-image: url(../../img/slider-next.svg);
 }
 
-.slide-img {
+/* .slide-img {
     width: 280px;
     background-image: url("../../img/volunteer-0.jpg");
     background-repeat: no-repeat;
-}
+} */
