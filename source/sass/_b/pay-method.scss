@@ -1,12 +1,76 @@
+// .pay-method__heading {
+//   font-size: 20px;
+//   text-align: center;
+//   font-weight: 700;
+// }
+// .pay-method__list {
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+// }
+
+// .pay-method__item input[type="radio"] + label {
+//   display: block;
+//   width: 115px;
+//   height: 75px;
+//   border: 1px solid rgb(211, 211, 211);
+//   border-radius: 5px;
+//   margin-right: 15px;
+//   margin-bottom: 30px;
+// }
+
+// .pay-method__item--visa input[type="radio"] + label {
+//   background-image: url("../img/visa.png");
+//   background-repeat: no-repeat;
+//   background-position: 50% 50%;
+// }
+
+// .pay-method__item--mc input[type="radio"] + label {
+//   background-image: url("../img/mc.png");
+//   background-repeat: no-repeat;
+//   background-position: 50% 50%;
+// }
+
+// .pay-method__item--yam input[type="radio"] + label {
+//   background-image: url("../img/yam.png");
+//   background-repeat: no-repeat;
+//   background-position: 50% 50%;
+// }
+
+// .pay-method__item--wm input[type="radio"] + label {
+//   background-image: url("../img/wm.png");
+//   background-repeat: no-repeat;
+//   background-position: 50% 50%;
+// }
+
+// .pay-method__list input[type="radio"] {
+//   display: none;
+// }
+
+// .pay-method__item input[type="radio"]:checked + label {
+//   border: 1px solid rgb(58, 185, 195);
+// }
 .pay-method__heading {
   font-size: 20px;
   text-align: center;
   font-weight: 700;
 }
 .pay-method__list {
+  max-width: 280px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 10px;
+
+  .pay-method__item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+}
+
+.pay-method__item {
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .pay-method__item input[type="radio"] + label {
@@ -15,8 +79,6 @@
   height: 75px;
   border: 1px solid rgb(211, 211, 211);
   border-radius: 5px;
-  margin-right: 15px;
-  margin-bottom: 30px;
 }
 
 .pay-method__item--visa input[type="radio"] + label {
@@ -49,4 +111,27 @@
 
 .pay-method__item input[type="radio"]:checked + label {
   border: 1px solid rgb(58, 185, 195);
+}
+
+@media (min-width: 768px) {
+
+  .pay-method__list {
+    max-width: none;
+    margin-bottom: 30px;
+
+    .pay-method__item {
+      margin-right: 15px;
+      margin-bottom: 0;
+    }
+
+    .pay-method__item:nth-child(2n) {
+      margin-right: 15px;
+    }
+
+    .pay-method__item:last-child {
+      margin-right: 0;
+    }
+
+  }
+
 }

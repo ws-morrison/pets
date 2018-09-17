@@ -1,27 +1,25 @@
 .page-header {
-  width: 100%;
-  //  margin-bottom: 50px;
-  box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
+    &--bg {
+        background-image: url("../img/bg-header.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 40px;
+    }
 }
 
-.page-header--bg {
-  background-image: url("../img/bg-header.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 40px;
-}
 .page-header__title {
-  font-size: 15px;
-  font-family: "Effra", "Arial", sans-serif;
-  font-weight: 400;
-  width: 25%;
-  margin: 0;
-  // margin-bottom: 70px;
-}
+    font-size: 15px;
+    font-family: "Effra", "Arial", sans-serif;
+    font-weight: 400;
+    width: 25%;
+    margin: 0;
 
-.page-header__title--special {
-  width: 75%;
-  margin-bottom: 70px;
-  color: rgb(233, 233, 233);
+    &--special {
+        width: 75%;
+        margin-bottom: 70px;
+        color: rgb(233, 233, 233);
+    }
 }

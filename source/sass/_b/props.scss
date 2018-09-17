@@ -9,11 +9,12 @@
 
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(242, 242, 242);
+
+    &--bold {
+        font-weight: 700;
+    }
 }
 
-.props__heading--bold {
-    font-weight: 700;
-}
 .props__list {
     list-style: none;
     margin: 0;
@@ -25,19 +26,8 @@
 
 .props__text {
     padding: 0;
-}
-.props__text--bold {
-    font-weight: 700;
-}
 
-// @media (min-width: 768px) {
-//     .props {
-//         display: flex;
-//     }
-// }
-
-// @media (min-width: 1024px) {
-//     .props {
-//         display: flex;
-//     }
-// }
+    &--bold {
+        font-weight: 700;
+    }
+}

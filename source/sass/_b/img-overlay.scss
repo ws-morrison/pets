@@ -1,107 +1,93 @@
 .img-overlay {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-  padding-top: 50px;
-  padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 
-  text-align: center;
+    text-align: center;
 
-  margin-top: 30px;
-  margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-// .img-overlay::before {
-//   content: "";
-//   display: block;
-//   background-image: url("../../img/item-thumb.svg");
-//   width: 41px;
-//   height: 41px;
-//   background-repeat: no-repeat;
-//   margin: 0 auto;
-// }
-
 .img-overlay__heading {
-  font-size: 26px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .img-overlay__text {
-  font-size: 18px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 255, 255);
-  margin: 0;
-  padding: 0;
+    font-size: 18px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+
+    &--large {
+        font-size: 26px;
+        margin: 0;
+        padding: 0;
+    }
 }
-
-.img-overlay__text--large {
-  font-size: 26px;
-  margin: 0;
-  padding: 0;
-}
-
-// .img-overlay__text--wide {
-//   width: 210px;
-// }
 
 .img-overlay__text-wrapper {
-  width: 80%;
+    width: 80%;
 }
 
 .img-overlay__counter {
-  font-size: 36px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 203, 105);
-  margin: 0;
-  padding: 0;
+    font-size: 36px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 203, 105);
+    margin: 0;
+    padding: 0;
 
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .img-overlay__caption {
-  font-size: 16px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 255, 255);
-  margin: 0;
-  padding: 0;
+    font-size: 16px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 
 .img-overlay__sponsors {
-  color: rgb(255, 203, 105);
+    color: rgb(255, 203, 105);
 }
 
 .img-overlay__text--highlighted {
-  color: rgb(255, 203, 105);
+    color: rgb(255, 203, 105);
 }
 
 .overlay-background-0 {
-  background-image: url("../img/bg-overlay.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-image: url("../img/bg-overlay.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .overlay-background-1 {
-  background-image: url("../img/bg-overlay-1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-image: url("../img/bg-overlay-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @media (min-width: 768px) {
-  .img-overlay {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
+    .img-overlay {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 }
 
 @media (min-width: 1024px) {
-  .img-overlay {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
+    .img-overlay {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 }

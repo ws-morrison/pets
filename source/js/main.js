@@ -22,14 +22,14 @@ $(document).ready(function() {
 
     // special for index
     $(".burger--special").on("click", function() {
-        $(".nav-menu--special").toggleClass("visually-hidden");
+        $(".menu-nav").toggleClass("visually-hidden");
     });
 
     // Burger animation
     $(".burger").click(function() {
         $(this).toggleClass("open");
         $(".nav-menu").toggleClass("nav-menu--opened");
-        $(".nav-menu--special").toggleClass("nav-menu--opened");
+        $(".menu-nav").toggleClass("nav-menu--opened");
     });
 
     // stopPropagation Burger menu
@@ -38,8 +38,8 @@ $(document).ready(function() {
         $(".burger").removeClass("open");
         $(".nav-menu").addClass("visually-hidden");
         $(".nav-menu").removeClass("nav-menu--opened");
-        $(".nav-menu--special").removeClass("nav-menu--opened");
-        $(".nav-menu--special").addClass("visually-hidden");
+        $(".menu-nav").removeClass("nav-menu--opened");
+        $(".menu-nav").addClass("visually-hidden");
         $(".modal-overlay").toggleClass("hidden");
         event.stopPropagation();
     });

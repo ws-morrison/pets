@@ -1,5 +1,4 @@
 .item-state__text {
-  // display: inline-block;
   margin: 0 auto;
   position: relative;
   font-size: 16px;
@@ -12,18 +11,6 @@
 
   padding-left: 20px;
 }
-
-// .item-state__text::before {
-//   content: "";
-//   position: absolute;
-//   background-image: url("../../img/timer.svg");
-//   width: 29px;
-//   height: 36px;
-//   background-repeat: no-repeat;
-//   margin: 0 auto;
-//   bottom: -13px;
-//   left: -6px;
-// }
 
 .item-state__counter {
   font-size: 16px;

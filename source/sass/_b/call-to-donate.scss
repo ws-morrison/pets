@@ -1,45 +1,49 @@
 .call-to-donate {
-  margin: 0 auto;
+    margin: 0 auto;
 
-  padding-top: 65px;
-  padding-bottom: 60px;
+    padding-top: 65px;
+    padding-bottom: 60px;
 
-  margin-bottom: 50px;
-  text-align: center;
-  background-image: url("../img/bg-overlay-2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    margin-bottom: 50px;
+    text-align: center;
+    background-image: url("../img/bg-overlay-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .call-to-donate__heading {
-  text-align: center;
-  font-size: 24px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 255, 255);
 
-  margin: 0;
-  margin-bottom: 30px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .call-to-donate__text {
-  text-align: center;
-  font-size: 18px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 255, 255);
 
-  margin: 0;
-  margin-bottom: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+    &--accient {
+        color: rgb(255, 203, 105);
+    }
 }
-.call-to-donate__text--accient {
-  color: rgb(255, 203, 105);
-}
+// .call-to-donate__text--accient {
+//   color: rgb(255, 203, 105);
+// }
+
 .call-to-donate__caption {
-  text-align: center;
-  font-size: 16px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 255, 255);
 
-  margin: 0;
-  margin-bottom: 25px;
+    margin: 0;
+    margin-bottom: 25px;
 }
