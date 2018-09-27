@@ -409,10 +409,15 @@ select {
   -o-appearance: none;
   -webkit-appearance: none; }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -moz-appearance: none;
+  margin: 0; }
+
 .page-body {
   font-family: "Effra", "Arial", sans-serif; }
 
-.contanier {
+.container {
   margin: 0 auto;
   padding: 0 20px 0 20px;
   -webkit-box-sizing: border-box;
@@ -442,11 +447,11 @@ select {
   display: none; }
 
 @media (min-width: 768px) {
-  .contanier {
+  .container {
     padding: 0 80px; } }
 
 @media (min-width: 1024px) {
-  .contanier {
+  .container {
     padding: 0 60px; } }
 
 .item-thumb--hands::before {
