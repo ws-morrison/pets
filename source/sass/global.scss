@@ -22,6 +22,12 @@ select {
     -webkit-appearance: none;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -moz-appearance: none;
+    margin: 0;
+}
+
 .page-body {
     font-family: "Effra", "Arial", sans-serif;
 }

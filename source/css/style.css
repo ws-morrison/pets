@@ -1477,7 +1477,7 @@ select {
   z-index: 103; }
 
 .burger-item {
-  height: 3px;
+  height: 0.1em;
   background: #3ab9c3;
   margin-bottom: 4px;
   -webkit-transition: 0.3s ease-out;
@@ -1502,7 +1502,7 @@ select {
   content: "";
   position: absolute;
   width: 18px;
-  height: 3px;
+  height: 0.1em;
   background: #3ab9c3;
   margin-bottom: 4px;
   -webkit-transform: rotate(90deg);
