@@ -20,6 +20,7 @@
 .nav-list__text {
     font-family: "Effra";
 }
+
 .nav-list__caption {
     font-size: 18px;
     text-align: center;
@@ -52,6 +53,7 @@
             text-decoration: none;
         }
     }
+
     &--orange {
         background-color: rgb(254, 122, 69);
 
@@ -81,6 +83,7 @@
             text-decoration: none;
         }
     }
+
     &--orange {
         background-color: rgb(254, 122, 69);
 
@@ -90,6 +93,22 @@
         }
     }
 }
+
+.nav-menu__list {
+    list-style: none;
+    border-bottom: 1px solid #F2F2F2;
+
+    &--last-child {
+        border-bottom: none;
+        margin-bottom: 30px;
+    }
+}
+
+// .nav-menu__list:last-child {
+//     border-bottom: none;
+//     margin-bottom: 30px;
+// }
+
 
 @media (min-width: 768px) {
     .nav-list__wrapper {

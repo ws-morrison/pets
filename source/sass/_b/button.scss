@@ -1,43 +1,68 @@
 .button {
-  border: none;
-  width: 280px;
-  height: 82px;
-  border-radius: 50px;
-  background-image: linear-gradient(
-    0deg,
-    rgb(57, 145, 174) 0%,
-    rgb(60, 206, 208) 100%
-  );
-  color: rgb(255, 255, 255);
-  border-bottom: solid 3px rgb(28, 127, 160);
+    border: none;
+    width: 280px;
+    height: 82px;
+    border-radius: 50px;
+    background-image: linear-gradient(0deg,
+        rgb(57, 145, 174) 0%,
+        rgb(60, 206, 208) 100%);
+    color: rgb(255, 255, 255);
+    border-bottom: solid 3px rgb(28, 127, 160);
+
+    &__small {
+        width: 160px;
+        height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &--email {
+        background-color: #fff;
+    }
+
+    &__exit-form {
+        width: 240px;
+        height: unset;
+        font-size: 20px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
 }
 
 .button__wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .button__link {
-  font-size: 20px;
-  font-family: "Effra", "Arial", sans-serif;
-  color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Effra", "Arial", sans-serif;
+    color: rgb(255, 255, 255);
+
+    &--small {
+        font-size: 14px;
+    }
 }
 
 .more-button {
-  border: none;
-  width: 280px;
-  height: 72px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50px;
-  border: solid 3px rgb(58, 185, 195);
+    border: none;
+    width: 280px;
+    height: 72px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: solid 3px rgb(58, 185, 195);
 }
 
 .more-button__link {
-  font-family: "Effra-Medium";
-  font-size: 18px;
-  color: rgb(58, 185, 195);
-  text-align: center;
+    font-family: "Effra-Medium";
+    font-size: 18px;
+    color: rgb(58, 185, 195);
+    text-align: center;
 }

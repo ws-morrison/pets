@@ -1,0 +1,38 @@
+.thanks-header {
+    &__nav {}
+
+    .header__nav {
+        margin-top: 25px;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__title-text {
+        text-align: left;
+        font-size: 12px;
+
+        padding: 0;
+        margin: 0;
+
+        &--big {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .thanks-header {
+        &__title {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+        &__title-text {
+            text-align: center;
+        }
+    }
+}
