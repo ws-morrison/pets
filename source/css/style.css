@@ -1990,8 +1990,6 @@ input[type="checkbox"]:checked {
 .write-us-form__textarea {
   border: none;
   border-radius: 10px;
-  padding-left: -20px;
-  padding-right: -17px;
   margin-bottom: 15px; }
   .write-us-form__textarea::-webkit-input-placeholder {
     padding-top: 20px;
