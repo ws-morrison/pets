@@ -1,0 +1,32 @@
+.staff-list {
+    &__title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    &__item {
+        display: flex;
+        width: 277px;
+
+        margin-bottom: 20px;
+    }
+    &__img-wrapper {
+        align-self: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 5px solid #f4f4f4;
+
+        margin-right: 15px;
+    }
+
+    &__item-text {
+        margin: 0;
+        padding: 0;
+
+        margin-bottom: 10px;
+        &--bold {
+            font-family: "Effra-Medium";
+        }
+    }
+}

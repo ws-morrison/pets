@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Отключает отображение цифр как ссылку на номер телефона -->
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./source/css/style.css">
+
+    <link rel="stylesheet" href="./source/css/rangeslider.js-2.3.0/rangeslider.css">
+    <link rel="stylesheet" href="./source/css/select2/select2.min.css">
+    <title>Pets</title>
+</head>
+
+<body class="page-body">
+
+    <header class="page-header">
+        <div class="container">
+            <nav class="header-nav">
+                <a href="" class="link header-nav__link">На главную</a>
+                <a href="" class="link header-nav__link">Зарегистрироваться</a>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+    <main class="page-main">
+
+        <section class="donate">
+            <div class="container">
+                <form class="donate-form">
+                    <p class="donate__heading">У Вас 2 пожертвования
+                        на сумму <span class="donate__heading donate__heading--highlighted">2 000 Р</span></p>
+
+                    <div class="donate-share">
+                        <div class="donate-share__item">
+                            <div class="donate-share__col-1">
+                                <label for="" class="donate-share__label">Приют «Лохматый друг»
+                                    <input type="number" class="donate-share__input" placeholder="500 P"></label>
+                            </div>
+                            <div class="donate-share__col-2">
+                                <a href="" class="donate-share__link">Поделиться</a>
+                                <input id="share-check" type="checkbox" class="donate-share__checkbox" checked>
+                                <label for="share-check" class="donate-share__label">
+                                </label>
+                                <span class="donate-share__caption">Ежемесячно</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pay-method">
+                        <p class="pay-method__heading">Выберите способ оплаты</p>
+
+                        <div class="pay-method__list">
+
+                            <div class="pay-method__item pay-method__item--visa">
+                                <input type="radio" name="pay-method_radio" id="radio_visa">
+                                <label for="radio_visa">
+                                </label>
+                            </div>
+                            <div class="pay-method__item pay-method__item--mc">
+                                <input type="radio" name="pay-method_radio" id="radio_mc">
+                                <label for="radio_mc">
+                                </label>
+                            </div>
+
+                            <div class="pay-method__item pay-method__item--yam">
+                                <input type="radio" name="pay-method_radio" id="radio_yam">
+                                <label for="radio_yam">
+                                </label>
+                            </div>
+                            <div class="pay-method__item pay-method__item--wm">
+                                <input type="radio" name="pay-method_radio" id="radio_wm">
+                                <label for="radio_wm">
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <p class="subscribe__heading">Кого нам благодарить?</p>
+
+                    <div class="subscribe-form">
+                        <label for="sub_name">
+                            <input class="subscribe-form__input" type="text" name="sub" id="sub_name" placeholder="Введите ваше имя">
+                        </label>
+
+                        <label for="sub_email">
+                            <input class="subscribe-form__input" type="email" name="sub" id="sub_email" placeholder="Введите вашу почту">
+                        </label>
+
+                        <div class="button__wrapper">
+                            <button type="submit" class="button button--medium subscribe-form__button">Пожертвовать</button>
+                        </div>
+
+                        <p class="subscribe-form__caption">
+                            Помогая, я соглашаюсь с <a href="" class="link subscribe-form__link">Условиями
+                                пожертвований</a>
+                            и <a href="" class="link subscribe-form__link">Политикой</a>
+                        </p>
+                    </div>
+                    <p class="fix-donate__caption-text">Мы пришлём отчёт о получении сразу, как только перевод поступит
+                        на
+                        счёт сбора. Вы сможете отменить привязку карты в любой момент
+                    </p>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <p class="page-footer__heading">Международный фонд помощи животным</p>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- <script src="/source/js/select2/select2.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <!-- <script src="/source/js/rangeslider.js-2.3.0/rangeslider.min.js"></script> -->
+    <!-- <script src="/source/js/rangeslider.js-2.3.0/donate-slider.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            $('.select').select2();
+        });
+
+    </script>
+    <script src="./source/js/main.js"></script>
+</body>
+
+</html>

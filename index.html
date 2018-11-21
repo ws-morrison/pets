@@ -12,31 +12,6 @@
     <title>Pets</title>
 </head>
 
-<div class="modal modal--overflow exit-modal">
-    <div class="exit-modal__title">
-        <p class="exit-modal__title-text exit-modal__title-text--big">Маленькой помощи
-            не бывает!</p>
-        <p class="exit-modal__title-text">Возможно, прямо сейчас у Вас нет
-            времени или возможности, чтобы
-            помочь. Напомнить Вам о
-            пожертвованиях позже?</p>
-    </div>
-    <!-- <div class="exit-form__wrapper"> -->
-    <form action="" class="exit-form">
-        <label for="" class="exit-form__label">Когда Вам напомнить?
-            <input type="text" class="exit-form__input exit-form__input--data-thumb" placeholder="Выберите удобное время"></label>
-        <label for="" class="exit-form__label">Как часто напоминать Вам?
-            <select class="exit-form__select">
-                <option value="">Каждый понедельник</option>
-                <option value="">Каждый вторник</option>
-                <option value="">Каждый четверг</option>
-            </select>
-            <input type="email" class="exit-form__input" placeholder="Введите email"></label>
-        <button class="button button__exit-form">Пожертвовать позже</button>
-    </form>
-    <!-- </div> -->
-</div>
-
 <body class="page-body">
 
     <header class="page-header page-header--bg">
@@ -121,7 +96,7 @@
             <div class="button__wrapper">
                 <button class="button header__button"><a href="#" class="button__link">Хочу помочь!</a></button>
             </div>
-            <div class="modal-overlay hidden"></div>
+            <!-- <div class="modal-overlay hidden"></div> -->
         </div>
     </header>
 
@@ -309,7 +284,34 @@
 
         </div>
     </footer>
+    <div class="modal modal--overflow exit-modal jsModalExit">
+        <a href="#" class="modal__close-btn jsModalCloseBtn">Close</a>
+        <div class="exit-modal__title">
+            <p class="exit-modal__title-text exit-modal__title-text--big">Маленькой помощи
+                не бывает!</p>
+            <p class="exit-modal__title-text">Возможно, прямо сейчас у Вас нет
+                времени или возможности, чтобы
+                помочь. Напомнить Вам о
+                пожертвованиях позже?</p>
+        </div>
 
+        <form action="" class="exit-form">
+            <label for="" class="exit-form__label exit-form__label--data-thumb">Когда Вам напомнить?
+                <input type="text" class="exit-form__input" placeholder="Выберите удобное время"></label>
+            <label for="" class="exit-form__label exit-form__label--arrow-thumb">Как часто напоминать Вам?
+                <select class="exit-form__select">
+                    <option value="">Каждый понедельник</option>
+                    <option value="">Каждый вторник</option>
+                    <option value="">Каждый четверг</option>
+                </select>
+                <input type="email" class="exit-form__input" placeholder="Введите email"></label>
+            <button class="button button__exit-form">Пожертвовать позже</button>
+        </form>
+    </div>
+
+    <!-- <a href="#" class="jsModalExitBtn" style="display: block; padding: 20px;">Эта кнопка отображает модальное которое
+        будет появляться при покидании сайта</a> -->
+    <div class="modal-overlay hidden"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="./source/js/main.js"></script>

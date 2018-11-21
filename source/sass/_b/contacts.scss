@@ -1,0 +1,86 @@
+.contacts {
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__title-text {
+        font-size: 16px;
+        line-height: 16px;
+
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5px;
+
+        &--big {
+            font-size: 30px;
+            line-height: 34px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__reg-title {
+        font-size: 26px;
+        line-height: 30px;
+        position: relative;
+
+        &--highlighted {
+            display: inline-block;
+        }
+
+        &--highlighted:before {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 7px;
+            background-color: #fe5938;
+            z-index: -1;
+            top: 20px;
+        }
+    }
+
+    &__reg-link {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    &__social-list-text {
+        font-size: 18px;
+        display: block;
+        max-width: 280px;
+    }
+
+    &__social-list {
+        width: 115px;
+        display: flex;
+        // flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        // margin-top: 20px;
+    }
+
+    &__social-link {
+        display: block;
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        &--tg {
+            background-image: url("../img/icons/send.png");
+
+        }
+
+        &--tel {
+            background-image: url("../img/icons/phone.png");
+        }
+
+        &--fb-mes {
+            background-image: url("../img/icons/messenger.png");
+        }
+
+        &--viber {
+            background-image: url("../img/icons/viber.png");
+        }
+    }
+}

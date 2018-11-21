@@ -1,0 +1,67 @@
+.donate-share {
+    width: 100%;
+    &__item {
+        display: flex;
+        max-width: 280px;
+        margin: 0 auto;
+        background-color: #F4F4F4;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-bottom: 20px;
+    }
+
+    &__col-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__col-2 {
+        text-align: right;
+        position: relative;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-end;
+    }
+
+    &__label {
+        font-family: "Effra-Medium";
+        font-size: 14px;
+    }
+
+    &__input {
+        max-width: 140px;
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 20px;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+
+        margin-top: 20px;
+    }
+
+    &__link {
+        color: #3AB9C3;
+        font-size: 12px;
+    }
+
+    &__caption {
+        font-family: "Effra";
+        font-size: 10px;
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+input[type="number"].donate-share__input::placeholder,
+input[type="text"].donate-share__input::placeholder,
+input[type="email"].donate-share__input::placeholder {
+    color: #000;
+}

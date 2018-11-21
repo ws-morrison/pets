@@ -1,8 +1,5 @@
 .modal {
-    // display: none;
-
-    display: flex;
-
+    display: none;
     position: relative;
     flex-direction: column;
     top: 20px;
@@ -21,14 +18,33 @@
     &--overflow {
         position: absolute;
     }
-}
 
+    &__close-btn {
+        display: block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 15px;
+        right: 15px;
+
+        font-size: 0px;
+        background-image: url("../img/icons/cancel.png");
+        background-color: transparent;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        background-size: contain;
+
+        z-index: 105;
+    }
+}
 
 .exit-modal {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 35px;
     padding-bottom: 30px;
+
+    border-radius: 10px;
 
     &__title {
         margin-bottom: 30px;

@@ -136,18 +136,47 @@
             background-image: url("../img/icons/Gmail_Icon.png");
         }
     }
+
+    &__close-thumb {
+        width: 14px;
+        height: 14px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../img/icons/close-white.svg");
+
+        position: absolute;
+
+        top: 20px;
+        right: 20px;
+    }
 }
 
-.exit-form__input--data-thumb::before {
+.exit-form__label--data-thumb::before {
     content: "";
     position: absolute;
-    // display: block;
+    display: block;
     width: 17px;
     height: 17px;
-    top: 0;
+    top: 56px;
+    right: 20px;
     background-image: url("../img/icons/calendar.png");
     background-repeat: no-repeat;
-    z-index: 104;
+    background-size: 100%;
+    z-index: 103;
+}
+
+.exit-form__label--arrow-thumb::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 9px;
+    top: 61px;
+    right: 20px;
+    background-image: url("../img/icons/down_arrow.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 103;
 }
 
 @media (min-width: 1024px) {
