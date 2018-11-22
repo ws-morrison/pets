@@ -9,7 +9,8 @@
 }
 
 .subscribe-form {
-    width: 100%;
+    // width: 100%;
+    width: 280px;
     text-align: center;
     background-color: rgb(244, 244, 244);
     padding-top: 30px;
@@ -27,6 +28,10 @@
 
     border: none;
     border-radius: 5px;
+
+    &--big {
+        margin-bottom: 40px;
+    }
 }
 
 .subscribe-form__button {
@@ -61,6 +66,7 @@
         border-radius: 10px;
 
         margin-bottom: 15px;
+
         &::placeholder {
             padding-top: 20px;
             padding-left: 20px;
@@ -70,6 +76,7 @@
         }
     }
 }
+
 @media (min-width: 768px) {
     .subscribe-form {
         width: 727px;

@@ -1,0 +1,48 @@
+.drop-items {
+
+    &__item {
+        border: 1px solid #F4F4F4;
+        border-radius: 10px;
+
+        max-width: 727px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+    }
+
+    &__item-header {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+
+        position: relative;
+    }
+
+    &__item-content {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        border-radius: 10px;
+    }
+
+    &__item-title {
+        position: relative;
+    }
+}
+
+.drop-items__item-header.active {
+    color: #fff;
+    background: #3AB9C3;
+}
+
+.jsShowContent {
+    display: none;
+}
+
+.jsShowContent.active {
+    display: block;
+}

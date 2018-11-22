@@ -1,0 +1,29 @@
+.nav-buttons {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        // width: 280px;
+        max-width: 728px;
+        justify-content: space-around;
+        margin: 0 auto;
+
+        margin-bottom: 30px;
+    }
+
+    &__list-button {
+        border: 1px solid #B6B6B6;
+        border-radius: 21.5px;
+        font-family: "Effra-Medium";
+        font-size: 12px;
+        color: #000;
+        padding: 12px;
+        margin-bottom: 5px;
+    }
+
+    &__list-button.active {
+        border: 1px solid #3AB9C3;
+        background-color: #3AB9C3;
+        color: #fff;
+
+    }
+}

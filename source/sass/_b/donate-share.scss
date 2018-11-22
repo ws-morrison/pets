@@ -1,5 +1,6 @@
 .donate-share {
     width: 100%;
+
     &__item {
         display: flex;
         max-width: 280px;
@@ -60,8 +61,34 @@
         bottom: 0;
     }
 }
+
 input[type="number"].donate-share__input::placeholder,
 input[type="text"].donate-share__input::placeholder,
 input[type="email"].donate-share__input::placeholder {
     color: #000;
+}
+
+.checkbox-wrapper__share [type="checkbox"]:checked+label:before,
+.checkbox-wrapper__share [type="checkbox"]:not(:checked)+label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
+    background: #fff;
+}
+
+.checkbox-wrapper__share [type="checkbox"]:checked+label:after,
+.checkbox-wrapper__share [type="checkbox"]:not(:checked)+label:after {
+    content: "";
+    width: 20px;
+    height: 15px;
+    background-image: url("../img/icons/tick.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    transition: all 0.2s ease;
 }

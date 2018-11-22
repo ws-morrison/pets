@@ -19,7 +19,7 @@
         <div class="container">
             <nav class="header-nav">
                 <a href="" class="link header-nav__link">На главную</a>
-                <a href="" class="link header-nav__link">Зарегистрироваться</a>
+                <a href="" class="link header-nav__link">Войти</a>
             </nav>
         </div>
         </div>
@@ -31,10 +31,13 @@
             <div class="container">
                 <form class="donate-form login-form">
                     <div class="login-form__title">
-                        <p class="login-form__title-text login-form__title-text--big">Рады Вас видеть!</p>
+                        <p class="login-form__title-text login-form__title-text--big">Зарегистрируйтесь,
+                            чтобы стать участником
+                            и получать помощь.</p>
                         <p class="login-form__title-text">
-                            Войдите, чтобы продолжить творить
-                            добрые дела!</p>
+                            Вы получите доступ к вашему кабинету,
+                            где сможете управлять пожертвованиями,
+                            делиться проектами и многое другое.</p>
                     </div>
 
                     <div class="subscribe-form">
@@ -43,22 +46,25 @@
                         </label>
 
                         <label for="sub_email">
-                            <input class="subscribe-form__input subscribe-form__input--big" type="email" name="sub" id="sub_email"
+                            <input class="subscribe-form__input" type="email" name="sub" id="sub_email"
                                 placeholder="Введите пароль">
                         </label>
 
-                        <div class="checkbox-wrapper__login">
-                            <input id="share-check" type="checkbox" class="donate-share__checkbox" checked>
-                            <label for="share-check" class="donate-share__label">
-                            </label>
-                            <span class="login-form__caption">Запомнить
-                                меня</span>
-                        </div>
+                        <label for="sub_email">
+                            <input class="subscribe-form__input subscribe-form__input--big" type="email" name="sub" id="sub_email"
+                                placeholder="Подтвердите пароль">
+                        </label>
 
                         <div class="button__wrapper">
-                            <button type="submit" class="button button--medium subscribe-form__button">Войти</button>
+                            <button type="submit" class="button button--medium subscribe-form__button">Зарегистрироваться</button>
                         </div>
-                        <a href="" class="link link--small">Напомнить пароль</a>
+
+                        <p class="subscribe-form__caption">
+                            Отправляя сообщение, я соглашаюсь с <a href="" class="link subscribe-form__link">Условиями
+                                пожертвований</a>
+                            и <a href="" class="link subscribe-form__link">Политикой</a>
+                        </p>
+
                     </div>
                 </form>
 

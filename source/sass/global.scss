@@ -50,6 +50,11 @@ input[type=number]::-webkit-outer-spin-button {
     text-decoration: none;
     color: rgb(58, 185, 195);
     font-size: 17px;
+    &--small {
+        display: block;
+        font-size: 14px;
+        margin-top: 25px;
+    }
 }
 
 .modal-overlay {
@@ -101,30 +106,6 @@ input[type="checkbox"]:checked {
     color: #666;
 }
 
-[type="checkbox"]:checked+label:before,
-[type="checkbox"]:not(:checked)+label:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 25px;
-    height: 25px;
-    border-radius: 7px;
-    background: #fff;
-}
-
-[type="checkbox"]:checked+label:after,
-[type="checkbox"]:not(:checked)+label:after {
-    content: "";
-    width: 20px;
-    height: 15px;
-    background-image: url("../img/icons/tick.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 2px;
-    top: 5px;
-    transition: all 0.2s ease;
-}
 
 [type="checkbox"]:not(:checked)+label:after {
     opacity: 0;

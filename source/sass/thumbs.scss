@@ -149,6 +149,36 @@
         top: 20px;
         right: 20px;
     }
+
+    &__plus-drop {
+        position: absolute;
+        width: 21px;
+        height: 2.5px;
+        background-image: linear-gradient(-180deg, #3BCCCD 0%, #3889A8 100%);
+        // width: 20px;
+        // height: 20px;
+        // background-image: url('../img/icons/plus-symbol.png');
+        right: 20px;
+        top: 40px;
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 21px;
+            height: 2.5px;
+            background-image: linear-gradient(-180deg, #3BCCCD 0%, #3889A8 100%);
+            transform: rotate(90deg);
+        }
+    }
+
+    &__plus-drop.active {
+        background-image: linear-gradient(0deg, #fff 0%, #fff 100%);
+
+        &::before {
+            display: none;
+        }
+    }
 }
 
 .exit-form__label--data-thumb::before {
