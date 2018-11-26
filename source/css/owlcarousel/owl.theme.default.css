@@ -10,6 +10,7 @@
     max-width: 520px;
     margin: 0 auto;
 }
+
 .owl-theme .owl-nav {
     margin-top: 10px;
     text-align: center;
@@ -37,7 +38,7 @@
     cursor: default;
 }
 
-.owl-theme .owl-nav.disabled + .owl-dots {
+.owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 10px;
 }
 
@@ -51,6 +52,7 @@
     zoom: 1;
     *display: inline;
 }
+
 .owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
@@ -71,10 +73,12 @@
 .owl-theme {
     margin-bottom: 60px;
 }
+
 .owl-theme .owl-dots .owl-dot span {
     width: 6px;
     height: 6px;
 }
+
 .post__slider {
     max-width: 520px;
     margin: 0 auto;
@@ -109,8 +113,14 @@
     background-image: url(../../img/slider-next.svg);
 }
 
-/* .slide-img {
-    width: 280px;
-    background-image: url("../../img/volunteer-0.jpg");
-    background-repeat: no-repeat;
+/* .owl-carousel .owl-item img {
+    width: 87px;
 } */
+.charity__carousel .owl-item.active {
+    max-width: 88px;
+    box-sizing: border-box;
+    border: 5px solid #f4f4f4;
+}
+
+
+

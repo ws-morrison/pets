@@ -1,7 +1,17 @@
 .docs {
     margin-bottom: 30px;
     border-bottom: 1px solid rgb(242, 242, 242);
+
+    &--border-none {
+        border-bottom: none;
+    }
+    &__heading {
+        font-family: "Effra-Medium";
+        font-size: 20px;
+        text-align: left;
+    }
 }
+
 .dropdown-list-wrapper {
     width: 100%;
     display: flex;
@@ -9,7 +19,7 @@
     align-items: center;
     margin: 0 auto;
 
-    transition:  0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .dropdown-list__item {
@@ -26,7 +36,7 @@
     border-radius: 5px;
     margin: 0 auto;
 
-    transition:  0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .dropdown-list__heading-thumb {
@@ -48,7 +58,7 @@
 .dropdown-list__heading--active {
     color: rgb(255, 255, 255);
     background-color: rgb(58, 185, 195);
-    transition:  0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .docs__wrapper {
@@ -60,7 +70,7 @@
     margin-bottom: 30px;
 
     opacity: 1;
-    transition:  0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .docs__text-wide-wrapper {
@@ -74,6 +84,7 @@
     flex-direction: column;
     align-items: center;
     width: 140px;
+
     &--wide {
         width: 200px;
     }
@@ -102,21 +113,68 @@
 }
 
 .docs__item-link {
-    width: 100px;
+    // width: 100px;
+    font-family: "Effra-Medium";
     align-self: flex-start;
     color: rgb(0, 0, 0);
 }
+
 .docs-item__desc {
     font-size: 13px;
     margin: 5px 0;
 }
+
 .docs-item__size {
     font-size: 13px;
     color: rgb(117, 117, 117);
 }
+
 .dropdown-list__heading-text {
     margin-left: 20px;
 }
+
+.docs__link {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #3AB9C3;
+    display: block;
+    margin-bottom: 35px;
+}
+
+// .docs-info__title {
+//     font-family: "Effra-Medium";
+//     font-size: 16px;
+// }
+
+// .docs-info__text {
+//     font-family: "Effra";
+//     font-size: 14px;
+//     line-height: 24px;
+// }
+
+// .docs-info__list {
+//     list-style: none;
+// }
+
+// .docs-info__list-heading {
+//     font-family: "Effra";
+//     font-size: 16px;
+//     display: block;
+//     margin-bottom: 20px;
+// }
+
+// .docs-info__list-item {
+//     margin: 0;
+//     padding: 0;
+//     margin-bottom: 15px;
+// }
+
+// .docs-info__list-link {
+//     font-family: "Effra";
+//     font-size: 14px;
+//     color: #3AB9C3;
+// }
 
 @media (min-width: 768px) {
     .dropdown-list-wrapper {

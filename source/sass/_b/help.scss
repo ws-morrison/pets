@@ -21,9 +21,11 @@
     text-align: center;
     margin: 0;
 }
+
 .help__text {
     text-align: center;
 }
+
 .help__caption {
     font-size: 18px;
     font-family: "Effra", "Arial", sans-serif;
@@ -74,6 +76,12 @@
 .help-post__desc {
     font-family: "Effra";
     font-size: 16px;
+}
+
+.help__post {
+    &--mb {
+        margin-bottom: 35px;
+    }
 }
 
 @media (min-width: 768px) {

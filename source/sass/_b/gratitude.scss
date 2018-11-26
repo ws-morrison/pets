@@ -1,0 +1,50 @@
+.gratitude {
+
+    &__title {
+        font-size: 18px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    &__table {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        background: #F4F4F4;
+        border-radius: 10px;
+
+        max-width: 727px;
+        margin: 0 auto;
+        height: 320px;
+        overflow: auto;
+
+    }
+
+    &__table-row {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    &__table-col-1 {
+        flex-grow: 1;
+        max-width: 70px;
+        font-family: "Effra-Medium";
+        font-size: 16px;
+    }
+
+    &__table-col-2 {
+        font-family: "Effra";
+        font-size: 16px;
+    }
+
+    &__table-col-3 {
+        align-self: flex-end;
+        font-family: "Effra";
+        font-size: 13px;
+        color: #757575;
+    }
+}

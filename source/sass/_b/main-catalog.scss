@@ -1,0 +1,154 @@
+.main-catalog {
+
+    &__title-text {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+
+        &--big {
+            font-size: 26px;
+            line-height: 30px;
+
+        }
+
+        &--highlighted {
+            position: relative;
+            font-size: 26px;
+            line-height: 30px;
+            display: inline-block;
+            width: unset;
+        }
+
+        &--highlighted:before {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 7px;
+            background-color: #fe5938;
+            z-index: -1;
+            top: 20px;
+        }
+    }
+
+    &__item-text {
+        font-size: 18px;
+        color: #fff;
+        line-height: 24px;
+        text-align: center;
+
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+
+        &--small {
+            font-size: 16px;
+            line-height: 16px;
+            margin: 0;
+            // margin-bottom: 10px;
+        }
+
+        &--large {
+            font-size: 36px;
+            line-height: 36px;
+            margin: 0;
+
+        }
+
+        &--accient {
+            display: block;
+            color: #FFCB69;
+            margin: 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 280px;
+        margin: 0 auto;
+        box-sizing: border-box;
+
+        border-radius: 3px;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        margin-bottom: 20px;
+    }
+
+    &__items-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-bottom: 10px;
+    }
+
+    &__item-bg {
+        background-color: rgb(27, 27, 29);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &--0 {
+            background-image: url("../img/img_cat_1.png");
+            // background-position: 0 0;
+        }
+
+        &--1 {
+            background-image: url("../img/img_dog_3.png");
+            // background-position: -35px 0;
+        }
+
+        &--2 {
+            background-image: url("../img/img_cat_2.png");
+            // background-position: -35px 0;
+        }
+
+        &--3 {
+            background-image: url("../img/img_dog_4.png");
+            // background-position: -50px 0;
+        }
+    }
+
+    &__item-thumb {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+        &--highlighted {
+            position: relative;
+            display: inline-block;
+        }
+
+        &--highlighted:before {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 7px;
+            background-color: #fe5938;
+            z-index: -1;
+            top: 14px;
+        }
+    }
+}
+
+@media (min-width: 980px) {
+    .main-catalog {
+        &__items-list {
+            max-width: 1260px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: unset;
+        }
+    }
+}

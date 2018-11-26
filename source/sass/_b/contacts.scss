@@ -56,7 +56,26 @@
         // flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
+
         // margin-top: 20px;
+        &--wide {
+            width: 145px;
+
+        }
+    }
+
+    &__social-list-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 320px;
+    }
+
+    &__social-list-caption {
+        display: flex;
+        font-size: 14px;
+        color: #B6B6B6;
+        align-self: center;
+        margin-left: 15px;
     }
 
     &__social-link {
@@ -81,6 +100,26 @@
 
         &--viber {
             background-image: url("../img/icons/viber.png");
+        }
+
+        &--inst {
+            background-image: url("../img/icons/instagram.png");
+        }
+
+        &--fb {
+            background-image: url("../img/icons/facebook.png");
+        }
+
+        &--snap {
+            background-image: url("../img/icons/snapchat.png");
+        }
+
+        &--tw {
+            background-image: url("../img/icons/twitter.png");
+        }
+
+        &--in {
+            background-image: url("../img/icons/linkedin.png");
         }
     }
 }

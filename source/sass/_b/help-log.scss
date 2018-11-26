@@ -1,0 +1,77 @@
+.help-log {
+    &__title {
+        font-size: 18px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        // width: 280px;
+        max-width: 580px;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        position: relative;
+
+        &::after {
+            content: "";
+            // display: block;
+            position: absolute;
+            width: 18px;
+            height: 13px;
+            background-image: url("../img/icons/left-arrow.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            left: -10px;
+            top: 8px;
+        }
+
+        &::before {
+            content: "";
+            // display: block;
+            position: absolute;
+            width: 18px;
+            height: 13px;
+            background-image: url("../img/icons/right-arrow.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            right: -10px;
+            top: 8px;
+        }
+    }
+
+    &__list-item {
+        font-size: 14px;
+        color: #000000;
+        text-align: center;
+        line-height: 16px;
+
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 15px;
+
+        &.active {
+            background: #3AB9C3;
+            color: #fff;
+        }
+    }
+
+
+    &__item-title {
+        font-family: "Effra-Medium";
+        font-size: 16px;
+        color: #000000;
+        text-align: center;
+    }
+
+    &__item-text {
+        font-size: 16px;
+        color: #000000;
+        line-height: 24px;
+        max-width: 727px;
+    }
+}

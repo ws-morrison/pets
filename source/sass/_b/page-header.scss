@@ -1,12 +1,31 @@
 .page-header {
     width: 100%;
     box-sizing: border-box;
+    background-repeat: no-repeat;
+
     &--bg {
         background-image: url("../img/bg-header.jpg");
-        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         margin-bottom: 40px;
+    }
+
+    &--need-help-bg {
+        background-color: #09090A;
+        background-image: url("../img/img_cat_3.png");
+        background-position: center 204px;
+        background-size: contain;
+        background-size: cover;
+        margin-bottom: 40px;
+    }
+
+    &--want-help-bg {
+        background-color: #09090A;
+        background-image: url("../img/img_dog_2.png");
+        background-position: center 0;
+        background-size: contain;
+        margin-bottom: 40px;
+        padding-bottom: 100px;
     }
 }
 
@@ -17,9 +36,34 @@
     width: 25%;
     margin: 0;
 
+    &--white {
+        color: #fff;
+    }
+
     &--special {
         width: 75%;
         margin-bottom: 70px;
         color: rgb(233, 233, 233);
+    }
+
+    &--medium-mb {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .page-header {
+        &--need-help-bg {
+
+            background-image: none;
+
+        }
+
+        &--want-help-bg {
+
+            background-image: none;
+
+        }
     }
 }

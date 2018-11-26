@@ -50,6 +50,7 @@ input[type=number]::-webkit-outer-spin-button {
     text-decoration: none;
     color: rgb(58, 185, 195);
     font-size: 17px;
+
     &--small {
         display: block;
         font-size: 14px;
@@ -86,6 +87,7 @@ input[type="email"]::placeholder {
     color: #000;
     border-radius: 10px;
 }
+
 input[type="checkbox"]:not(:checked) {
     position: absolute;
     left: -9999px;
@@ -127,6 +129,9 @@ input[type="checkbox"]:checked {
     background: #aaa;
 }
 
+table {
+    border-collapse: collapse;
+}
 
 @media (min-width: 768px) {
     .container {

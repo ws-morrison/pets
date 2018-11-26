@@ -1,0 +1,38 @@
+.shelter-info {
+   &__title {
+        font-family: "Effra-Medium";
+        font-size: 16px;
+    }
+
+   &__text {
+        font-family: "Effra";
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+   &__list {
+        list-style: none;
+    }
+
+   &__list-heading {
+        font-family: "Effra";
+        font-size: 16px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+   &__list-item {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 30px;
+        }
+    }
+
+   &__list-link {
+        font-family: "Effra";
+        font-size: 14px;
+        color: #3AB9C3;
+    }
+}

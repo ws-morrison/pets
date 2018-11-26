@@ -1,0 +1,30 @@
+.charity {
+    margin-bottom: 35px;
+    &__heading {
+        display: flex;
+        max-width: 320px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__heading-text {
+        font-family: "Effra-Medium";
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    &__heading-logo {
+        width: 100%;
+    }
+
+    &__item-lead {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    &__item-text {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 727px;
+    }
+}

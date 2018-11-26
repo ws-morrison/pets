@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <!-- Отключает отображение цифр как ссылку на номер телефона -->
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="./source/css/style.css">
-
-    <link rel="stylesheet" href="./source/css/rangeslider.js-2.3.0/rangeslider.css">
-    <link rel="stylesheet" href="./source/css/select2/select2.min.css">
     <title>Pets</title>
 </head>
 
 <body class="page-body">
 
-    <header class="page-header">
+    <header class="page-header page-header--want-help-bg">
         <div class="container">
+
             <nav class="header-nav">
-                <h1 class="page-header__title">Международный фонд помощи животным</h1>
+                <h1 class="page-header__title page-header__title--white">Международный фонд помощи животным</h1>
                 <div class="header-nav__wrapper">
+
                     <div class="header-login">
                         <a href="#" class="link header-login__link">Личный кабинет</a>
                     </div>
@@ -86,38 +86,66 @@
                 </div>
             </nav>
 
-            <p class="nav-list__text nav-list__text--left-align"> <b class="nav-list__text--bold">112 сборов</b> </p>
-            <p class="nav-list__text nav-list__text--left-align nav-list__text--caption">открыты прямо сейчас</p>
+            <div class="header-content">
+                <h2 class="header-content__title">Маленькой помощи
+                    не бывает!</h2>
+                <div class="header-item header-item--laptop">
+                    <p class="header-item__title item-thumb item-thumb--hands">112 сборов</p>
 
-            <nav class="nav-list">
-                <div class="nav-list__wrapper">
-                    <div class="nav-list__button">
-                        <a href="#" class="nav-list__link">14 срочных</a></div>
-                    <div class="nav-list__button nav-list__button--active">
-                        <a href="#" class="nav-list__link">Остальные</a></div>
-                    <div class="nav-list__button">
-                        <a href="#" class="nav-list__link">Завершенные</a></div>
+                    <p class="header-item__caption">открыты прямо сейчас</p>
+                    <p class="header-item__text">Они все разные, но все одинаково
+                        нуждаются в вашей помощи!</p>
                 </div>
-                <p class="nav-list__caption">Выберите, в чем именно хотели бы помочь</p>
-            </nav>
-
-            <div class="select__wrapper">
-                <select class="select" name="select-help" id="help_select">
-                    <option value="all">Все</option>
-                    <option value="remain">Оставшиеся</option>
-                    <option value="finished">Законченные</option>
-                </select>
             </div>
-
-        </div>
-        <div class="modal-overlay hidden"></div>
         </div>
     </header>
 
     <main class="page-main">
-
-        <section class="donate">
+        <section class="main-catalog">
             <div class="container">
+                <div class="main-catalog__title">
+                    <p class="main-catalog__title-text main-catalog__title-text--big">Выберите, в чем именно хотели бы
+                        <span class="main-catalog__title-text main-catalog__title-text--highlighted">помочь</span></p>
+                </div>
+
+                <div class="main-catalog__items-list">
+                    <div class="main-catalog__item main-catalog__item-bg main-catalog__item-bg--0">
+                        <img src="./source/img/icons/fire_2.png" alt="" class="main-catalog__item-thumb" width="28px"
+                            height="32px">
+                        <p class="main-catalog__item-text">Наши срочные сборы:
+                            помощь нужна им
+                            прямо сейчас</p>
+                        <!-- <p class="main-catalog__item-text main-catalog__item-text--small">
+                            <span class="main-catalog__item-text main-catalog__item-text--large main-catalog__item-text--accient">87%</span>
+                            успешно собранных средств</p> -->
+                    </div>
+
+                    <div class="main-catalog__item main-catalog__item-bg main-catalog__item-bg--1">
+                        <img src="./source/img/icons/general-funds.png" alt="" class="main-catalog__item-thumb" width="44px"
+                            height="37.5px">
+                        <p class="main-catalog__item-text">Общие средства:
+                            стерилизация, содержание,
+                            передержка</p>
+                    </div>
+
+                    <div class="main-catalog__item main-catalog__item-bg main-catalog__item-bg--2">
+                        <img src="./source/img/icons/treatment.png" alt="" class="main-catalog__item-thumb" width="45px"
+                            height="46px">
+                        <p class="main-catalog__item-text">Средства на лечение -
+                            наибольшие затраты</p>
+                    </div>
+
+
+                    <div class="main-catalog__item main-catalog__item-bg main-catalog__item-bg--3">
+                        <img src="./source/img/icons/wallet.png" alt="" class="main-catalog__item-thumb" width="40px"
+                            height="46px">
+                        <p class="main-catalog__item-text">Помощь приютам:
+                            самостоятельно принимают
+                            решение о распределении
+                            средств</p>
+                    </div>
+                </div>
+
                 <form class="donate-form">
                     <p class="donate__heading">Не знаете, кому помочь?<br> <b class="donate__heading donate__heading--bold">Помогите
                             всем
@@ -131,7 +159,7 @@
 
                     <!-- rangeSlider -->
                     <input type="range" min="10" max="1000" step="10" value="300" data-rangeslider="" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;">
-                    <div class="rangeslider rangeslider--horizontal" id="js-rangeslider-0">
+                    <div class="rangeslider rangeslider--horizontal" id="js-rangeslider-1">
                         <div class="rangeslider__fill"></div>
                         <div class="rangeslider__handle" style="left: 49%"></div>
                     </div>
@@ -139,7 +167,7 @@
 
                     <div class="donate-form__button-group">
                         <div class="donate-form__button">
-                            <input class="donate-form__radio" type="radio" id="check_once" name="donate_radio" checked>
+                            <input class="donate-form__radio" type="radio" id="check_once" name="donate_radio" checked="">
                             <label for="check_once" class="donate-form__button">Разово</label></div>
 
                         <div class="donate-form__button">
@@ -205,8 +233,10 @@
                     </p>
                 </form>
 
+
             </div>
         </section>
+
 
     </main>
 
@@ -217,18 +247,9 @@
         </div>
     </footer>
 
+    <div class="modal-overlay hidden"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="/source/js/select2/select2.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
-    <script src="/source/js/rangeslider.js-2.3.0/rangeslider.min.js"></script>
-    <script src="/source/js/rangeslider.js-2.3.0/donate-slider.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.select').select2();
-        });
-
-    </script>
     <script src="./source/js/main.js"></script>
 </body>
 

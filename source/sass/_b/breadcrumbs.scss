@@ -1,0 +1,9 @@
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    &__link {
+        font-size: 14px;
+        color: #3AB9C3;
+        line-height: 20px;
+    }
+}
