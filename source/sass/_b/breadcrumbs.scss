@@ -1,6 +1,13 @@
 .breadcrumbs {
     display: flex;
     flex-wrap: wrap;
+
+    &--big {
+
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
     &__link {
         font-size: 14px;
         color: #3AB9C3;

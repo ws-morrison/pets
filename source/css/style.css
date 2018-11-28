@@ -390,7 +390,9 @@ th {
   font-style: normal; }
 
 body {
-  width: 100%; }
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto; }
 
 a {
   text-decoration: none; }
@@ -2901,6 +2903,9 @@ input[type="email"].donate-share__input::placeholder {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+  .breadcrumbs--big {
+    margin-top: 35px;
+    margin-bottom: 40px; }
   .breadcrumbs__link {
     font-size: 14px;
     color: #3AB9C3;
@@ -2925,13 +2930,23 @@ input[type="email"].donate-share__input::placeholder {
     line-height: 30px; }
   .charity__heading-logo {
     width: 100%; }
+  .charity__item-img-wrapper {
+    margin: 0 auto;
+    max-width: 280px; }
+  .charity__active-img-wrapper {
+    margin: 0 auto;
+    max-width: 280px; }
   .charity__item-lead {
     font-size: 18px;
     line-height: 24px; }
   .charity__item-text {
+    display: block;
+    margin: 0 auto;
     font-size: 16px;
     line-height: 24px;
-    max-width: 727px; }
+    max-width: 727px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 .help-log__title {
   font-size: 18px;
@@ -2987,6 +3002,10 @@ input[type="email"].donate-share__input::placeholder {
     background: #3AB9C3;
     color: #fff; }
 
+.help-log__item-img-wrapper {
+  margin: 0 auto;
+  max-width: 280px; }
+
 .help-log__item-title {
   font-family: "Effra-Medium";
   font-size: 16px;
@@ -2997,7 +3016,11 @@ input[type="email"].donate-share__input::placeholder {
   font-size: 16px;
   color: #000000;
   line-height: 24px;
-  max-width: 727px; }
+  max-width: 727px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .gratitude__title {
   font-size: 18px;

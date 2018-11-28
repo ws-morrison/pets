@@ -60,6 +60,10 @@
         }
     }
 
+    &__item-img-wrapper {
+        margin: 0 auto;
+        max-width: 280px;
+    }
 
     &__item-title {
         font-family: "Effra-Medium";
@@ -73,5 +77,9 @@
         color: #000000;
         line-height: 24px;
         max-width: 727px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }

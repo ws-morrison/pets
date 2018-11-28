@@ -1,5 +1,6 @@
 .charity {
     margin-bottom: 35px;
+
     &__heading {
         display: flex;
         max-width: 320px;
@@ -17,14 +18,29 @@
         width: 100%;
     }
 
+    &__item-img-wrapper {
+        margin: 0 auto;
+        max-width: 280px;
+    }
+
+    &__active-img-wrapper {
+        margin: 0 auto;
+        max-width: 280px;
+    }
+
     &__item-lead {
         font-size: 18px;
         line-height: 24px;
     }
 
     &__item-text {
+        display: block;
+        margin: 0 auto;
         font-size: 16px;
         line-height: 24px;
         max-width: 727px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
