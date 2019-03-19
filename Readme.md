@@ -1,2 +1,2 @@
 # Pets
-(https://ws-morrison.github.io/Pets/)[Ссылка на GitHub]
+[Ссылка на GitHub](https://ws-morrison.github.io/Pets/)
